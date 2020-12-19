@@ -19,15 +19,12 @@ const NewsSearch = () => {
     return <NewsCard article={article} />;
   });
 	return (
-    <>
     <Input 
     data-cy="search-input" 
     action="Search" 
     placeholder="Search..." 
     onChange={(event) => searchValue(event)}
     />
-    <Card.Group itemsPerRow={5}>{searchDisplay}</Card.Group>;
-    </>
 	);
 };
 
