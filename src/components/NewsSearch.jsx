@@ -6,7 +6,7 @@ import { Input } from 'semantic-ui-react'
 
 const NewsSearch = () => {
   return (
-    <Input action='Search' placeholder='Search...' />
+    <Input data-cy="search-input" action='Search' placeholder='Search...' />
   )
 }
 
