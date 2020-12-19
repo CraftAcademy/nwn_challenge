@@ -7,13 +7,18 @@ const NewsSearch = () => {
 	const dispatch = useDispatch();
 	const articles = useSelector((state) => state.specificNews);
 	const searchNews = async () => {
-		let articles = await NewsService.search(query);
-		dispatch({ type: "SEARCH_NEWS", payload: articles });
+		let searchResponse = await NewsService.search(query);
+		dispatch({ type: "SEARCH_NEWS", payload: searchResponse });
 	};
 
 	useEffect(searchNews, []);
 	return (
-		<Input data-cy="search-input" action="Search" placeholder="Search..." />
+    <Input 
+    data-cy="search-input" 
+    action="Search" 
+    placeholder="Search..." 
+    onChange={(event) => performSearch(event)}
+    />
 	);
 };
 
