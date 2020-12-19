@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import NewsService from "../modules/NewsService";
 import { Input } from "semantic-ui-react";
 
@@ -12,14 +12,21 @@ const NewsSearch = () => {
 		dispatch({ type: "SEARCH_NEWS", payload: searchResponse });
 	};
 
-	useEffect(searchNews, []);
+  useEffect(searchNews, []);
+  
+  let searchDisplay = articles.map((article) => {
+    return <NewsCard article={article} />;
+  });
 	return (
+    <>
     <Input 
     data-cy="search-input" 
     action="Search" 
     placeholder="Search..." 
     onChange={(event) => searchValue(event)}
     />
+    <Card.Group itemsPerRow={5}>{searchDisplay}</Card.Group>;
+    </>
 	);
 };
 
