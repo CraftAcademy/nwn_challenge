@@ -5,9 +5,9 @@ import NewsCard from './NewsCard'
 
 const NewsIndex = () => {
   return (
-    <>
+    <div data-cy='news-feed'>
       <NewsCard />
-    </>
+    </div>
   )
 }
 
