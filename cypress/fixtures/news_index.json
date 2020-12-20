@@ -7,6 +7,7 @@
         "id": "google-news",
         "name": "Google News"
       },
+      "id": 1,
       "author": null,
       "title": "Pokémon Go: The Galarian Mr. Mime Ticket Isn't Worth the Price - CBR - Comic Book Resources",
       "description": null,
@@ -20,6 +21,7 @@
         "id": null,
         "name": "Windows Central"
       },
+      "id": 2,
       "author": "John Levite",
       "title": "Take $15 off Call of Duty Black Ops Cold War for Xbox One or Xbox Series X at Best Buy - Windows Central",
       "description": "Get it for $44.99 on the last gen Xbox One or PlayStation 4 or $54.99 on Xbox Series X or PlayStation 5 consoles. This is the standard edition of the game, and the sale price is part of Best Buy's deals of the day so it is only good for today.",
@@ -33,6 +35,7 @@
         "id": "news24",
         "name": "News24"
       },
+      "id": 3,
       "author": null,
       "title": "WATCH | Bored of Mario Kart? Here are some other karting games to try | Wheels - News24",
       "description": "Mario Kart has become one of the most iconic karting games in the world but there are a few other alternatives to try that could prove to be even more enjoyable.",
@@ -46,6 +49,7 @@
         "id": null,
         "name": "Theubj.com"
       },
+      "id": 4,
       "author": "\"Adam N. Rivera\"",
       "title": "Operation Snowdown is the new seasonal event in Fortnite. - The UBJ",
       "description": "Epic Games has introduced its brand new seasonal event named 'Operation Snowdown' in popular video game Fortnite. As the name",
@@ -59,6 +63,7 @@
         "id": null,
         "name": "Theubj.com"
       },
+      "id": 5,
       "author": "\"Adam N. Rivera\"",
       "title": "Operation Snowdown is the new seasonal event in Fortnite. - The UBJ",
       "description": "Epic Games has introduced its brand new seasonal event named 'Operation Snowdown' in popular video game Fortnite. As the name",
@@ -72,6 +77,7 @@
         "id": null,
         "name": "Eurogamer.net"
       },
+      "id": 6,
       "author": "Vikki Blake",
       "title": "GOG advises Cyberpunk 2077 players to \"keep a lower amount of items\" to avoid corrupting save files - Eurogamer.net",
       "description": null,
@@ -85,6 +91,7 @@
         "id": null,
         "name": "Eurogamer.net"
       },
+      "id": 7,
       "author": "Vikki Blake",
       "title": "GOG advises Cyberpunk 2077 players to \"keep a lower amount of items\" to avoid corrupting save files - Eurogamer.net",
       "description": null,
@@ -98,6 +105,7 @@
         "id": null,
         "name": "Sindonews.com"
       },
+      "id": 8,
       "author": "Muh Iqbal Marsyaf",
       "title": "Daftar Smartphone dengan Pengisian Baterai Tercepat di Tahun... - SINDOnews.com",
       "description": "Tahun 2020 menjadi periode pabrikan menghadirkan smartphone dengan kecepatan pengisian baterai tercepat di dunia. Ya, fast charging menjadi pertimbangan konsumen...",
@@ -111,6 +119,7 @@
         "id": null,
         "name": "CarScoops"
       },
+      "id": 9,
       "author": null,
       "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
       "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
@@ -124,6 +133,7 @@
         "id": null,
         "name": "Yahoo Entertainment"
       },
+      "id": 10,
       "author": "Rashi Bhattacharyya",
       "title": "The potential health benefits of eating dark chocolate - Yahoo India News",
       "description": "Most of the time, people see dark chocolate as comfort food. But did you know that the consumption of this tasty delight might prove to be healthy for your...",
@@ -137,6 +147,7 @@
         "id": null,
         "name": "CarScoops"
       },
+      "id": 11,
       "author": null,
       "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
       "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
@@ -150,6 +161,7 @@
         "id": null,
         "name": "CarScoops"
       },
+      "id": 12,
       "author": null,
       "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
       "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
@@ -163,6 +175,7 @@
         "id": "techcrunch",
         "name": "TechCrunch"
       },
+      "id": 13,
       "author": "Anthony Ha, Jordan Crook, Darrell Etherington",
       "title": "Original Content podcast: The pandemic thriller ‘Songbird’ could have been a lot worse - TechCrunch",
       "description": "Let’s be clear: “Songbird” is not a good movie. It’s hard to see how it could have been any good, since “Songbird” was written shortly after the pandemic began and filmed a few months later — so the filmmakers had to write a screenplay, shoot it in the midst …",
@@ -176,6 +189,7 @@
         "id": null,
         "name": "Idevice.ro"
       },
+      "id": 14,
       "author": "Adrian Gabor",
       "title": "Android: Anuntul IMPORTANT pentru SUTE de MILIOANE de Oameni - iDevice.ro",
       "description": "Android este astazi din nou in centrul unui anunt foarte important care vizeaza sute de milioane de oameni din intreaga lume, si ar trebui sa stii ce anume se intampla pentru binele nostru chiar in aceste momente. Mai exact, cei de la Google si Qualcomm lucre…",
@@ -189,6 +203,7 @@
         "id": null,
         "name": "Dobreprogramy.pl"
       },
+      "id": 15,
       "author": "Piotr Urbaniak",
       "title": "Izraelscy naukowcy przekształcili pamięć RAM w nadajnik Wi-Fi - dobreprogramy",
       "description": "Nie, to nie jest żart, ani nawet Adam Słodowy dla bardziej zaawansowanych. To faktyczna metoda ataku, jaką Izrael proponuje w przypadku systemów izolowanych. …",
@@ -202,6 +217,7 @@
         "id": null,
         "name": "Moneytimes.com.br"
       },
+      "id": 16,
       "author": "Brave New Coin",
       "title": "Existem riscos não financeiros no blockchain... - Money Times",
       "description": "A inovação do setor DeFi está acelerando cada vez mais conforme novos produtos sendo criados parecem desafiar as leis das próprias finanças, como empréstimos-relâmpago (sem garantia e livre de riscos, em uma situação de arbitragem vantajosa para todos) (Image…",
@@ -215,6 +231,7 @@
         "id": null,
         "name": "BBC News"
       },
+      "id": 17,
       "author": null,
       "title": "'How do I introduce my black partner to my parents?' - BBC News",
       "description": "Blindian Project runs workshops to prepare couples for tricky family introductions.",
@@ -228,6 +245,7 @@
         "id": null,
         "name": "BBC News"
       },
+      "id": 18,
       "author": null,
       "title": "'How do I introduce my black partner to my parents?' - BBC News",
       "description": "Blindian Project runs workshops to prepare couples for tricky family introductions.",
@@ -241,6 +259,7 @@
         "id": null,
         "name": "Portfolio.hu"
       },
+      "id": 19,
       "author": "Portfolio.hu",
       "title": "Este is képes lesz napenergiát szolgáltatni az új magyar rendszer - Portfolio",
       "description": "Újabb mérföldkövet ér el hamarosan a megújuló energia magyarországi terjedése, miután befejezéséhez közeledik az ország első, városi tulajdonban lévő, energiatárolóval és naperőművel is integrált okoshálózat-beruházása. A mesterséges intelligenciát is alkalma…",
@@ -254,6 +273,7 @@
         "id": null,
         "name": "Akurat.co"
       },
+      "id": 20,
       "author": "Yusuf Tirtayasa",
       "title": "Update Daftar Harga HP Xiaomi Terbaru Desember 2020 - Bola Akurat",
       "description": "Update Daftar Harga HP Xiaomi Terbaru Desember 2020",

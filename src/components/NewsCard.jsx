@@ -1,20 +1,52 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import { Card, Image, Icon } from 'semantic-ui-react'
 
-const NewsCard = (props) => {
+const NewsCard = () => {
+  const [articles, setArticles] = useState()
+  const fetchTopHeadlines = async () => {
+    let topHeadlines = await axios.get("https://newsapi.org/v2/top-headlines?category=technology&apiKey=1f8621c526294f2993a444449194a9de")
+    topHeadlines = topHeadlines.data.articles.map(article => {
+      return {
+        id: topHeadlines.data.articles.indexOf(article) + 1,
+        title: article.title,
+        published_at: article.publishedAt,
+        description: article.description,
+        url: article.url,
+        image: article.urlToImage
+      }
+    })
+    setArticles(topHeadlines)
+  }
+  useEffect(fetchTopHeadlines, [])
+
   return (
-    <Card data-cy='news-card'>
-      <Image src='https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2020/11/call-of-duty-black-ops-cold-war-vietnam.jpg' />
-      <Card.Content>
-        <Card.Header>Take $15 off Call of Duty Black Ops Cold War for Xbox One or Xbox Series X at Best Buy - Windows Central</Card.Header>
-        <Card.Meta>Published at 2020-12-20</Card.Meta>
-        <Card.Description>Get it for $44.99 on the last gen Xbox One or PlayStation 4 or $54.99 on Xbox Series X or PlayStation 5 consoles. This is the standard edition of the game, and the sale price is part of Best Buy's deals of the day so it is only good for today.</Card.Description>
-      </Card.Content>
-      <Card.Content extra>
-        <a href='https://www.windowscentral.com/take-15-call-duty-black-ops-cold-war-xbox-one-or-xbox-series-x-best-buy'>
-          <Icon name='newspaper outline' />Read more</a>
-      </Card.Content>
-    </Card>
+    <>
+      { articles && (
+        <Card.Group itemsPerRow="4" >
+          {articles.map(article => {
+            return (
+              <Card key={article.id} data-cy={`article-${article.id}`} >
+                <Image
+                  src={`${article.image}`}
+                  onError={(e) => { e.target.onerror = null; e.target.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png" }}
+                />
+                <Card.Content>
+                  <Card.Header>{article.title}</Card.Header>
+                  <Card.Meta>{article.published_at}</Card.Meta>
+                  <Card.Description>{article.description}</Card.Description>
+                </Card.Content>
+                <Card.Content extra>
+                  <a href={article.url}>
+                    <Icon name='newspaper outline' />Read more</a>
+                </Card.Content>
+              </Card>
+            )
+          })}
+        </Card.Group>
+      )
+      }
+    </>
   )
 }
 
