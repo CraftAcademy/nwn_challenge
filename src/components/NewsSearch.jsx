@@ -26,12 +26,14 @@ const NewsSearch = () => {
         type='text'
         placeholder='Search...'
         data-cy='search-input'
-        onBlur={(e) => setSearchInput(e.target.value)} />
+        onBlur={(e) => setSearchInput(e.target.value)}
+        inverted />
       <Button
         data-cy='search-button'
         onClick={fetchSearchResult}
-      >Search
-      </Button>
+        icon='search'
+        inverted
+      />
     </>
   )
 }
