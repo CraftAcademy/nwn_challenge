@@ -27,7 +27,6 @@ const formatResponse = (response) => {
       image: article.urlToImage,
     };
   });
-  debugger;
   return response;
 };
 
