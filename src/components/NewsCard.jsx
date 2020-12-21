@@ -5,24 +5,7 @@ import axios from 'axios'
 
 const NewsCard = () => {
   const articles = useSelector(state => state.newsFeed.articles)
-  // const articles = newsFeed.articles
-  // const [articles, setArticles] = useState()
-  // const fetchTopHeadlines = async () => {
-  //   let topHeadlines = await axios.get("https://newsapi.org/v2/top-headlines?category=technology&apiKey=1f8621c526294f2993a444449194a9de")
-  //   topHeadlines = topHeadlines.data.articles.map(article => {
-  //     return {
-  //       id: topHeadlines.data.articles.indexOf(article) + 1,
-  //       title: article.title,
-  //       published_at: article.publishedAt,
-  //       description: article.description,
-  //       url: article.url,
-  //       image: article.urlToImage
-  //     }
-  //   })
-  //   setArticles(topHeadlines)
-  // }
-  // useEffect(fetchTopHeadlines, [])
-
+  
   return (
     <>
       { articles && (

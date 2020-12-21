@@ -25,27 +25,27 @@ describe("Visitor can search for news itemss", () => {
   });
 
   it("displays the title of an article", () => {
-    cy.get("[data-cy='article-1']").should(
+    cy.get("[data-cy='article-2']").should(
       "contain",
-      "The great 2020 Gmail outage: A tale of two blackouts, and lessons learned - IT World Canada"
+      "Incipio Grip case for Google Pixel 4a 5G: Enhanced grip and 14 feet drop protection"
     );
   });
 
   it("displays the published date of an article", () => {
-    cy.get("[data-cy='article-1']").should("contain", "2020-12-21T13:28:20Z");
+    cy.get("[data-cy='article-2']").should("contain", "2020-12-21T12:53:00Z");
   });
 
   it("displays the description of an article", () => {
-    cy.get("[data-cy='article-1']").should(
+    cy.get("[data-cy='article-2']").should(
       "contain",
-      "Last week was an unhappy one for Google"
+      "While the Pixel 4a 5G is an affordable phone, it is still worth protecting from accidental drops"
     );
   });
 
   it("displays the link to an article page ", () => {
-    cy.get("[data-cy='article-1']").within(() => {
+    cy.get("[data-cy='article-2']").within(() => {
       cy.get("a").contains("Read more").click();
-      cy.url().should("include", "https://www.itworldcanada.com");
+      cy.url().should("include", "https://www.zdnet.com/pictures/");
     });
   });
 });

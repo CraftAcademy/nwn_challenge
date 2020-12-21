@@ -1,7 +1,22 @@
 import axios from "axios";
 
 const NewsService = {
-  async index() {},
+  async index() {
+    let topHeadlines = await axios.get(
+      "https://newsapi.org/v2/top-headlines?category=technology&apiKey=1f8621c526294f2993a444449194a9de"
+    );
+    topHeadlines = topHeadlines.data.articles.map((article) => {
+      return {
+        id: topHeadlines.data.articles.indexOf(article) + 1,
+        title: article.title,
+        published_at: article.publishedAt,
+        description: article.description,
+        url: article.url,
+        image: article.urlToImage,
+      };
+    });
+    return topHeadlines;
+  },
 
   async search(query) {
     let searchResult = await axios.get(
