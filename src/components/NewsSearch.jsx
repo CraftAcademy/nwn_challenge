@@ -6,10 +6,9 @@ import { Input, Card } from "semantic-ui-react";
 
 const NewsSearch = () => {
 	const dispatch = useDispatch();
-	const articles = useSelector((state) => state.specificNews);
+	const [searchQuery, setSearchQuery] = useState()
 	const searchNews = async () => {
-		const query = searchValue;
-		let searchResponse = await NewsService.search(query);
+		let searchResponse = await NewsService.search(searchQuery);
 		dispatch({ type: "SEARCH_NEWS", payload: searchResponse });
 	};
 
