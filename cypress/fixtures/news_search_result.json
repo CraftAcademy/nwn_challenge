@@ -1,0 +1,286 @@
+{
+  "status": "ok",
+  "totalResults": 176,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "IT World Canada"
+      },
+      "id": 1,
+      "author": "Lynn Greiner",
+      "title": "The great 2020 Gmail outage: A tale of two blackouts, and lessons learned - IT World Canada",
+      "description": "Last week was an unhappy one for Google. It suffered two major outages; the root cause of each could concisely be described as \"oops\". Here's what happened.",
+      "url": "https://www.itworldcanada.com/article/the-great-2020-gmail-outage-a-tale-of-two-blackouts-and-lessons-learned/439924",
+      "urlToImage": "https://i.itworldcanada.com/wp-content/uploads/2020/12/GettyImages-1138212595.jpg",
+      "publishedAt": "2020-12-21T13:28:20Z",
+      "content": "Last week was an unhappy one for Google. It suffered two major outages; the root cause of each could concisely be described as “oops”.\r\nFor 47 minutes Dec. 14, many Google Cloud services were apparen… [+4782 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ZDNet"
+      },
+      "id": 2,
+      "author": "Matthew Miller",
+      "title": "Incipio Grip case for Google Pixel 4a 5G: Enhanced grip and 14 feet drop protection - ZDNet",
+      "description": "While the Pixel 4a 5G is an affordable phone, it is still worth protecting from accidental drops. Incipio has its Grip case available in two colors for this black Pixel phone.",
+      "url": "https://www.zdnet.com/pictures/incipio-grip-case-for-google-pixel-4a-5g-enhanced-grip-and-14-feet-drop-protection/",
+      "urlToImage": "https://zdnet2.cbsistatic.com/hub/i/r/2020/12/21/da8519b3-58b5-41d1-a89f-158279c53daa/thumbnail/770x578/69fe55698cea0ce01d680ef9de722fc2/incipio-grip-pixel-4a-5g-6.jpg",
+      "publishedAt": "2020-12-21T12:53:00Z",
+      "content": "The Incipio Grip case is available now for the Google Pixel 4a 5G in Midnight Blue and Black colors. It is priced at $39.99 and includes Incipio's lifetime warranty.\r\nThe case offers 14 feet drop pro… [+394 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Clubic"
+      },
+      "id": 3,
+      "author": "Antoine Roche",
+      "title": "Vous pouvez lancer un métronome depuis Google - Clubic",
+      "description": "Le moteur de recherches de Google propose de nombreux outils, y compris un métronome.",
+      "url": "https://www.clubic.com/pro/entreprises/google/tutoriel-23562-vous-pouvez-lancer-un-metronome-depuis-google.html",
+      "urlToImage": "https://pic.clubic.com/v1/images/1841406/raw?width=900&height=600&fit=max&hash=5832f39bac877c6734c84aea8de98a0fcc123920",
+      "publishedAt": "2020-12-21T12:13:00Z",
+      "content": "Musicien ou simple apprenti, le métronome est essentiel pour une bonne interprétation. Si vous êtes en extérieur, métronome préféré ou tout simplement que vous n'en avez pas eh bien Google répond aus… [+246 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Clubic"
+      },
+      "id": 4,
+      "author": "Antoine Roche",
+      "title": "Vous pouvez lancer un métronome depuis Google - Clubic",
+      "description": "Le moteur de recherches de Google propose de nombreux outils, y compris un métronome.",
+      "url": "https://www.clubic.com/pro/entreprises/google/tutoriel-23562-vous-pouvez-lancer-un-metronome-depuis-google.html",
+      "urlToImage": "https://pic.clubic.com/v1/images/1841406/raw?width=900&height=600&fit=max&hash=5832f39bac877c6734c84aea8de98a0fcc123920",
+      "publishedAt": "2020-12-21T12:13:00Z",
+      "content": "Musicien ou simple apprenti, le métronome est essentiel pour une bonne interprétation. Si vous êtes en extérieur, métronome préféré ou tout simplement que vous n'en avez pas eh bien Google répond aus… [+246 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Clubic"
+      },
+      "id": 5,
+      "author": "Antoine Roche",
+      "title": "Vous pouvez lancer un métronome depuis Google - Clubic",
+      "description": "Le moteur de recherches de Google propose de nombreux outils, y compris un métronome.",
+      "url": "https://www.clubic.com/pro/entreprises/google/tutoriel-23562-vous-pouvez-lancer-un-metronome-depuis-google.html",
+      "urlToImage": "https://pic.clubic.com/v1/images/1841406/raw?width=900&height=600&fit=max&hash=5832f39bac877c6734c84aea8de98a0fcc123920",
+      "publishedAt": "2020-12-21T12:13:00Z",
+      "content": "Musicien ou simple apprenti, le métronome est essentiel pour une bonne interprétation. Si vous êtes en extérieur, métronome préféré ou tout simplement que vous n'en avez pas eh bien Google répond aus… [+246 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ITProPortal"
+      },
+      "id": 6,
+      "author": "Sead Fadilpašić",
+      "title": "Google reveals cause of last week's massive service outage - ITProPortal",
+      "description": "A bug in the automated quota management system prevented people from accessing Google's most popular services.",
+      "url": "https://www.itproportal.com/news/google-reveals-cause-of-last-weeks-massive-service-outage/",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/jv9oUZdpWSApzL4qtRPBB3-1200-80.jpg",
+      "publishedAt": "2020-12-21T12:00:00Z",
+      "content": "For roughly an hour last week, Google customers were unable to access some of the companys most popular products, such as Gmail, YouTube, Drive, Maps, Docs and more. Now, the company has provided mor… [+1766 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ITProPortal"
+      },
+      "id": 7,
+      "author": "Sead Fadilpašić",
+      "title": "Google reveals cause of last week's massive service outage - ITProPortal",
+      "description": "A bug in the automated quota management system prevented people from accessing Google's most popular services.",
+      "url": "https://www.itproportal.com/news/google-reveals-cause-of-last-weeks-massive-service-outage/",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/jv9oUZdpWSApzL4qtRPBB3-1200-80.jpg",
+      "publishedAt": "2020-12-21T12:00:00Z",
+      "content": "For roughly an hour last week, Google customers were unable to access some of the companys most popular products, such as Gmail, YouTube, Drive, Maps, Docs and more. Now, the company has provided mor… [+1766 chars]"
+    },
+    {
+      "source": {
+        "id": "news24",
+        "name": "News24"
+      },
+      "id": 8,
+      "author": null,
+      "title": "New Google features to allow users to virtually 'try on' makeup products using augmented reality | W24 - News24",
+      "description": "To improve the online shopping experience, Google has partnered with ModiFace and Perfect Corp to bring in-store benefits online.",
+      "url": "https://www.news24.com/w24/popculture/entertainment/technology/new-google-features-to-allow-users-to-virtually-try-on-makeup-products-using-augmented-reality-20201221-2",
+      "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/10103/01df67c0a56f4690bd6b4c1b96e9ac15.jpg",
+      "publishedAt": "2020-12-21T11:53:10Z",
+      "content": "Try on products and visualise makeup looks \r\nShopping for cosmetic products is already a very personal experience that is made even harder when you can’t test a shade to make sure it suits your compl… [+2095 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Money.bg"
+      },
+      "id": 9,
+      "author": "Васил Шушков",
+      "title": "Google, Amazon, Microsoft и Apple вече са заплаха и за производителите на чипове - Money.bg",
+      "description": "Компаниите търсят по-висока производителност и по-ниска цена, създавайки сами нужните си процесори",
+      "url": "https://money.bg/business/google-amazon-microsoft-i-apple-veche-sa-zaplaha-i-za-proizvoditelite-na-chipove.html",
+      "urlToImage": "https://webnews.bg/uploads/images/24/4424/444424/768x432.jpg?_=1571048163",
+      "publishedAt": "2020-12-21T11:30:12Z",
+      "content": "- : - , , The Wall Street Journal.\r\n Intel, AMD Nvidia. Amazon, Microsoft Google , - - , , , - .\r\n Bloomberg , Microsoft , , . , Arm.\r\n Windows Surface. Intel, 6,3% . 21%, Microsoft , Apple Intel Mac… [+147 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "gizmochina"
+      },
+      "id": 10,
+      "author": null,
+      "title": "vivo Y31 key specs revealed via Google Play Console listing - gizmochina",
+      "description": "Although vivo is gearing up to launch the vivo X60 series of flagship smartphones in China on December 29, the company may also unveil a budget smartphone called vivo Y31 in other markets ahead of it. This device was recently spotted on multiple certification…",
+      "url": "https://www.gizmochina.com/2020/12/21/vivo-y31-specs-google-play-console/",
+      "urlToImage": "https://www.gizmochina.com/wp-content/uploads/2020/12/vivo-Y31-Google-Play-Console-Listing.jpg",
+      "publishedAt": "2020-12-21T11:28:00Z",
+      "content": "Although vivo is gearing up to launch the vivo X60 series of flagship smartphones in China on December 29, the company may also unveil a budget smartphone called vivo Y31 in other markets ahead of it… [+1132 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "gizmochina"
+      },
+      "id": 11,
+      "author": null,
+      "title": "vivo Y31 key specs revealed via Google Play Console listing - gizmochina",
+      "description": "Although vivo is gearing up to launch the vivo X60 series of flagship smartphones in China on December 29, the company may also unveil a budget smartphone called vivo Y31 in other markets ahead of it. This device was recently spotted on multiple certification…",
+      "url": "https://www.gizmochina.com/2020/12/21/vivo-y31-specs-google-play-console/",
+      "urlToImage": "https://www.gizmochina.com/wp-content/uploads/2020/12/vivo-Y31-Google-Play-Console-Listing.jpg",
+      "publishedAt": "2020-12-21T11:28:00Z",
+      "content": "Although vivo is gearing up to launch the vivo X60 series of flagship smartphones in China on December 29, the company may also unveil a budget smartphone called vivo Y31 in other markets ahead of it… [+1132 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "id": 12,
+      "author": null,
+      "title": "Skype adds support for chat bubbles on Android (APK Download) - Android Police",
+      "description": "Earlier this year, Google integrated bubble notifications into the core Android 11 experience. The new feature allows designated chat apps to open",
+      "url": "https://www.androidpolice.com/2020/12/21/skype-adds-support-for-chat-bubbles-on-android-apk-download/",
+      "urlToImage": "https://www.androidpolice.com/wp-content/uploads/2020/12/21/Skypes-adding-support-for-Bubbles-on-Android-APK-Download.png",
+      "publishedAt": "2020-12-21T11:10:00Z",
+      "content": "Earlier this year, Google integrated bubble notifications into the core Android 11 experience. The new feature allows designated chat apps to open free-floating windows that can be minimized to movab… [+1007 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "id": 13,
+      "author": null,
+      "title": "Skype adds support for chat bubbles on Android (APK Download) - Android Police",
+      "description": "Earlier this year, Google integrated bubble notifications into the core Android 11 experience. The new feature allows designated chat apps to open",
+      "url": "https://www.androidpolice.com/2020/12/21/skype-adds-support-for-chat-bubbles-on-android-apk-download/",
+      "urlToImage": "https://www.androidpolice.com/wp-content/uploads/2020/12/21/Skypes-adding-support-for-Bubbles-on-Android-APK-Download.png",
+      "publishedAt": "2020-12-21T11:10:00Z",
+      "content": "Earlier this year, Google integrated bubble notifications into the core Android 11 experience. The new feature allows designated chat apps to open free-floating windows that can be minimized to movab… [+1007 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wareable"
+      },
+      "id": 14,
+      "author": "James Stables",
+      "title": "OnePlus is helping Google improve Wear OS – and confirms smartwatch plans - Wareable",
+      "description": "The CEO of OnePlus – Pete Lau – has confirmed the company is working on a smartwatch, and that it’s likely to run Wear OS.  There are few details on what we...",
+      "url": "https://www.wareable.com/smartwatches/oneplus-is-helping-google-improve-wear-os-and-confirms-smartwatch-plans-8243",
+      "urlToImage": "https://www.wareable.com/media/imager/202012/35290-posts.facebook_lg.jpg",
+      "publishedAt": "2020-12-21T11:07:55Z",
+      "content": "The CEO of OnePlus Pete Lau has confirmed the company is working on a smartwatch, and that its likely to run Wear OS.\r\nThere are few details on what were likely to see but it seems the company is wor… [+1439 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wareable"
+      },
+      "id": 15,
+      "author": "James Stables",
+      "title": "OnePlus is helping Google improve Wear OS – and confirms smartwatch plans - Wareable",
+      "description": "The CEO of OnePlus – Pete Lau – has confirmed the company is working on a smartwatch, and that it’s likely to run Wear OS.  There are few details on what we...",
+      "url": "https://www.wareable.com/smartwatches/oneplus-is-helping-google-improve-wear-os-and-confirms-smartwatch-plans-8243",
+      "urlToImage": "https://www.wareable.com/media/imager/202012/35290-posts.facebook_lg.jpg",
+      "publishedAt": "2020-12-21T11:07:55Z",
+      "content": "The CEO of OnePlus Pete Lau has confirmed the company is working on a smartwatch, and that its likely to run Wear OS.\r\nThere are few details on what were likely to see but it seems the company is wor… [+1439 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wareable"
+      },
+      "id": 16,
+      "author": "James Stables",
+      "title": "OnePlus is helping Google improve Wear OS – and confirms smartwatch plans - Wareable",
+      "description": "The CEO of OnePlus – Pete Lau – has confirmed the company is working on a smartwatch, and that it’s likely to run Wear OS.  There are few details on what we...",
+      "url": "https://www.wareable.com/smartwatches/oneplus-is-helping-google-improve-wear-os-and-confirms-smartwatch-plans-8243",
+      "urlToImage": "https://www.wareable.com/media/imager/202012/35290-posts.facebook_lg.jpg",
+      "publishedAt": "2020-12-21T11:07:55Z",
+      "content": "The CEO of OnePlus Pete Lau has confirmed the company is working on a smartwatch, and that its likely to run Wear OS.\r\nThere are few details on what were likely to see but it seems the company is wor… [+1439 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gsmmaniak.pl"
+      },
+      "id": 17,
+      "author": "Konrad Bartnik",
+      "title": "Samsung Galaxy SII i kamień filozoficzny. Nieśmiertelność dała mu nawet Androida 11! - gsmManiaK.pl",
+      "description": "Android 11 na 10-letnim flagowcu? Jeśli masz nieco wprawy i wolnego czasu to najnowsza wersja systemu operacyjnego od Google może zagościć na Twoim Samsungu Galaxy SII. Jakie są ograniczenia i czy",
+      "url": "https://www.gsmmaniak.pl/1191606/samsung-galaxy-s2-android-11/",
+      "urlToImage": "https://www.gsmmaniak.pl/wp-content/uploads/2011/05/samsung-galaxy-s2.jpg",
+      "publishedAt": "2020-12-21T11:00:00Z",
+      "content": "Android 11 na 10-letnim flagowcu? Jeli masz nieco wprawy i wolnego czasu to najnowsza wersja systemu operacyjnego od Google moe zagoci na Twoim Samsungu Galaxy SII. Jakie s ograniczenia i czy warto s… [+1316 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ilgiornale.it"
+      },
+      "id": 18,
+      "author": "Mario Costa",
+      "title": "La rivoluzione su Google Maps: l'Assistant Driving Mode che cambia tutto - il Giornale",
+      "description": "Arriva sugli smartphone Android compatibili l'aggiornamento che porta in Maps la tanto attesa Driving Mode dell'Assistente Google: a cosa serve la nuova interfaccia, che si attiva con la navigazione stradale",
+      "url": "https://www.ilgiornale.it/news/tecnologia/rivoluzione-su-google-maps-lassistant-driving-mode-che-1911334.html",
+      "urlToImage": "https://img.ilgcdn.com/sites/default/files/foto/2020/12/21/1608540490-maps-evidenza.jpg",
+      "publishedAt": "2020-12-21T10:54:40Z",
+      "content": "È trascorso ormai più di un anno e mezzo da quando, all'evento I/O 2019, è stata annunciata la Driving Mode per l'Assistente Google in Google Maps. Finalmente i tempi sembrano essere maturi per il de… [+1928 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mobilmania.cz"
+      },
+      "id": 19,
+      "author": "Filip Kůžel",
+      "title": "Google a Qualcomm táhnou za jeden provaz. Slibují podporu Androidu na čtyři roky - MobilMania.cz",
+      "description": "",
+      "url": "https://www.mobilmania.cz/clanky/google-a-qualcomm-tahnou-za-jeden-provaz-slibuji-podporu-androidu-na-ctyri-roky/sc-3-a-1350169/default.aspx",
+      "urlToImage": "https://www.mobilmania.cz/getthumbnail.aspx?q=100&height=20000&width=20000&id_file=895552641",
+      "publishedAt": "2020-12-21T10:28:54Z",
+      "content": "Google a Qualcomm podepsali dohodu o podpoe nových verzí Androidu. Zaíná platit nedávno pedstaveným pikovým modelem Snapdragon 888, který vyaduje Android 11, ale firmy garantují podporu také pro Andr… [+744 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "IOL"
+      },
+      "id": 20,
+      "author": "IANS",
+      "title": "Google Camera Go gets HDR mode - IOL",
+      "description": "Google Camera Go app has received a dedicated High Dynamic Range (HDR) mode for enhanced photography on low-end Android Go-supported devices.",
+      "url": "https://www.iol.co.za/technology/software-and-internet/google-camera-go-gets-hdr-mode-d11ceea8-8f2a-48a6-b226-b2b4e952a79a",
+      "urlToImage": "https://image-prod.iol.co.za/resize/500x366?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/8a42f1a9-6158-544f-a517-31d969c4d5c8&operation=CROP&offset=0x174&resize=500x281",
+      "publishedAt": "2020-12-21T10:24:05Z",
+      "content": "New Delhi - Google Camera Go app has received a dedicated High Dynamic Range (HDR) mode for enhanced photography on low-end Android Go-supported devices.\r\nThe new mode will increase the dynamic range… [+848 chars]"
+    }
+  ]
+}
