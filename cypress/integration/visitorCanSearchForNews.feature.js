@@ -9,7 +9,7 @@ describe("Visitor can search for news itemss", () => {
     });
     cy.visit("/");
     cy.get("[data-cy='search-input']").type("google");
-    cy.get("button").contains("Search").click();
+    cy.get("[data-cy='search-button']").click();
   });
 
   it("displays a list of search result", () => {
@@ -38,7 +38,7 @@ describe("Visitor can search for news itemss", () => {
   it("displays the description of an article", () => {
     cy.get("[data-cy='article-1']").should(
       "contain",
-      "Last week was an unhappy one for Google. It suffered two major outages; the root cause of each could concisely be described as 'ops'. Here's what happened."
+      "Last week was an unhappy one for Google"
     );
   });
 
