@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { useSelector } from "react-redux";
 import { Card, Image, Icon } from 'semantic-ui-react'
-import axios from 'axios'
 
 const NewsCard = () => {
   const articles = useSelector(state => state.newsFeed.articles)
-  
+
   return (
     <>
       { articles && (
