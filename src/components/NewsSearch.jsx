@@ -13,7 +13,7 @@ const NewsSearch = () => {
     dispatch({ type: "SET_NEWS_FEED", payload: topHeadlines })
   }
 
-  useEffect(fetchTopHeadlines, [])
+  useEffect(fetchTopHeadlines)
 
   const fetchSearchResult = async () => {
     let searchResult = await NewsService.search(searchInput)
