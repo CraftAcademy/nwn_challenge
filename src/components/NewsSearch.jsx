@@ -7,7 +7,6 @@ const NewsSearch = () => {
 	const dispatch = useDispatch();
 	const [searchQuery, setSearchQuery] = useState();
 	const searchNews = async () => {
-		debugger
 		let searchResponse = await NewsService.search(searchQuery);
 		dispatch({ type: "SET_NEWS_FEED", payload: searchResponse });
 	};
