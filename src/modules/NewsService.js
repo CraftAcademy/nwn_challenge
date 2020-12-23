@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const NewsService = {
-  async index() {
+  async index(dispatch) {
     let result = await axios.get("/top-headlines?country=us&apiKey=0226cdc8350248edb433d7f76eb053bd");
-    return result.data.articles;
+    dispatch({ type: "SET_NEWS_FEED", payload: result.data.articles });
   },
 
   async search(query) {
