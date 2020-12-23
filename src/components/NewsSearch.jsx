@@ -9,7 +9,7 @@ const NewsSearch = () => {
 	const searchNews = async () => {
 		debugger
 		let searchResponse = await NewsService.search(searchQuery);
-		dispatch({ type: "SEARCH_NEWS", payload: searchResponse });
+		dispatch({ type: "SET_NEWS_FEED", payload: searchResponse });
 	};
 
 	return (
