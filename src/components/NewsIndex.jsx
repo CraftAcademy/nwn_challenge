@@ -7,13 +7,11 @@ import { Card } from "semantic-ui-react";
 const NewsIndex = () => {
 	const dispatch = useDispatch();
 	const articles = useSelector((state) => state.newsFeed);
-	const fetchNews = async () => {
-		let articles = await NewsService.index();
-		dispatch({ type: "SET_NEWS_FEED", payload: articles });
-	};
 
-  useEffect(fetchNews, []);
-  
+	useEffect(() => {
+		NewsService.index(dispatch);
+	}, []);
+
 	let articlesDisplay = articles.map((article) => {
 		return <NewsCard article={article} />;
 	});

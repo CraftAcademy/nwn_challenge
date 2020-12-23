@@ -4,9 +4,9 @@ import 'semantic-ui-css/semantic.min.css'
 import App from './App'
 import { Provider } from 'react-redux'
 import configureStore from './state/store/configureStore'
-import Axios from "axios";
+import axios from "axios";
 
-Axios.defaults.baseURL = "https://newsapi.org/v2";
+axios.defaults.baseURL = "https://newsapi.org/v2";
 
 const store = configureStore()
 window.store = store
