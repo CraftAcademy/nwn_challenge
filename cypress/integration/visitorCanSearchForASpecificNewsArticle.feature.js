@@ -2,8 +2,13 @@ describe("User can,", () => {
 		beforeEach(() => {
 			cy.server();
 			cy.route({
-				method: "POST",
-				url: "http://newsapi.org/v2/everything?q=bitcoin",
+				method: "GET",
+				url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=**",
+				response: "fixture:news_index.json",
+			});
+			cy.route({
+				method: "GET",
+				url: "https://newsapi.org/v2/everything?q=Bitcoin&apiKey=**",
 				response: "fixture:news_index.json",
 			});
       cy.visit("/")

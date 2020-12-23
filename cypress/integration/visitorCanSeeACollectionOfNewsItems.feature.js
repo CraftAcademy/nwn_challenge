@@ -4,7 +4,7 @@ describe("A visitor can,", () => {
 			cy.server();
 			cy.route({
 				method: "GET",
-				url: "http://newsapi.org/v2/top-headlines",
+				url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=**",
 				response: "fixture:news_index.json",
 			});
 			cy.visit("/")
