@@ -8,7 +8,7 @@ describe("User can,", () => {
 			});
       cy.visit("/")
       cy.get("[data-cy='search-input']").type("Bitcoin");
-			cy.get("[data-cy='search-input']").click();
+			cy.get("[data-cy='search-button']").click();
 		});
 
 		it("successfully search for a specific news article", () => {

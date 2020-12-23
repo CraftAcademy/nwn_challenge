@@ -7,6 +7,7 @@ const NewsSearch = () => {
 	const dispatch = useDispatch();
 	const [searchQuery, setSearchQuery] = useState();
 	const searchNews = async () => {
+		debugger
 		let searchResponse = await NewsService.search(searchQuery);
 		dispatch({ type: "SEARCH_NEWS", payload: searchResponse });
 	};
@@ -17,7 +18,7 @@ const NewsSearch = () => {
 				data-cy="search-input"
 				type="text"
 				placeholder="Search..."
-				onChange={(event) => setSearchQuery(event)}
+				onChange={(event) => setSearchQuery(event.target.value)}
 			/>
 			<Button data-cy="search-button" onClick={searchNews}>
 				Search
