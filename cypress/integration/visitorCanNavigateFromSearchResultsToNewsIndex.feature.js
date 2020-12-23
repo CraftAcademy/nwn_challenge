@@ -26,15 +26,15 @@ describe("A visitor can,", () => {
 				"Moreover Bitcoin works as an investment take benefit cryptocurrency and so forth also. But that changed on their Bitcoin HYIP the corporation has modified the investment. Engineers of Bitcoin SV designers can seize info regarding mining OS that. Mining the cu…"
 			);
 		});
-  });
+	});
 
 	it("successfully navigate back to news index page", () => {
-    cy.route({
-      method: "GET",
-      url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=**",
-      response: "fixture:news_index.json",
-    });
 		cy.get("[data-cy='newsindex-button']").click();
+		cy.route({
+			method: "GET",
+			url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=**",
+			response: "fixture:news_index.json",
+		});
 		cy.get("[data-cy='news-index']").within(() => {
 			cy.get(".header").should(
 				"contain",
