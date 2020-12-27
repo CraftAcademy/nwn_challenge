@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Card } from 'semantic-ui-react';
 import NewsService from '../modules/NewsService';
 import NewsCard from './NewsCard';
 
@@ -16,11 +17,11 @@ const NewsIndex = () => {
   }, [dispatch]);
 
   return (
-    <div data-cy="index">
+    <Card.Group data-cy="index">
       {newsFeed.map((article, index) => {
         return <NewsCard {...article} id={index} />;
       })}
-    </div>
+    </Card.Group>
   );
 };
 
