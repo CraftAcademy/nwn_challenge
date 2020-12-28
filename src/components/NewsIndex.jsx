@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import NewsService from '../modules/NewsService'
 import NewsCard from './NewsCard'
 import axios from 'axios'
 
