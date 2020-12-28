@@ -13,7 +13,9 @@ describe('User can search for articles', () => {
     });
 
     it('is expected to show the search result', () => {
-      cy.get
+      cy.get("[data-cy='search_results']").within(() => {
+        cy.get("li").contains()
+      })
     });
     
     
