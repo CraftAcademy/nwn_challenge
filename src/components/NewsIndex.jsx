@@ -1,14 +1,37 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import NewsCard from './NewsCard'
-
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Card } from 'semantic-ui-react';
+import NewsService from '../modules/NewsService';
+import NewsCard from './NewsCard';
 
 const NewsIndex = () => {
-  return (
-    <>
-      <NewsCard />
-    </>
-  )
-}
+  const dispatch = useDispatch();
+  const newsFeed = useSelector((state) => state.newsFeed);
 
-export default NewsIndex
+  useEffect(() => {
+    const getArticles = async () => {
+      const articlesData = await NewsService.index();
+      dispatch({ type: 'SET_NEWS_FEED', payload: articlesData.articles });
+    };
+    getArticles();
+  }, [dispatch]);
+
+  return (
+    <Card.Group data-cy="index">
+      {newsFeed.map((article, index) => {
+        return (
+          <NewsCard
+            id={index}
+            imageUrl={article.urlToImage}
+            title={article.title}
+            author={article.author}
+            description={article.description}
+            publishedDate={article.publishedAt}
+          />
+        );
+      })}
+    </Card.Group>
+  );
+};
+
+export default NewsIndex;
