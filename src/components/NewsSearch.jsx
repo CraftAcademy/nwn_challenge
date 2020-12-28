@@ -26,18 +26,30 @@ const NewsSearch = () => {
   return (
     <>
       <Form onSubmit={onSubmitHandler}>
-        <Form.Field>
-          <input
-            data-cy="search-input"
-            name="search"
-            placeholder="Search..."
-          ></input>
-        </Form.Field>
-        <Form.Button data-cy="search-button">Search</Form.Button>
+        <table>
+          <tr>
+            <td>
+              <Form.Field>
+                <input
+                  data-cy="search-input"
+                  name="search"
+                  placeholder="Search..."
+                ></input>
+              </Form.Field>
+            </td>
+            <td>
+              <Form.Button data-cy="search-button">Search</Form.Button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p data-cy="error-message" style={{ color: 'red' }}>
+                {message}
+              </p>
+            </td>
+          </tr>
+        </table>
       </Form>
-      <p data-cy="error-message" style={{ color: 'red' }}>
-        {message}
-      </p>
     </>
   );
 };
