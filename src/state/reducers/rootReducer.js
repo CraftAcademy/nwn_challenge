@@ -7,11 +7,6 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         newsFeed: action.payload,
       };
-    case 'SET_SEARCH_MESSAGE':
-      return {
-        ...state,
-        searchMessage: action.payload,
-      };
 
     default:
       return state;
