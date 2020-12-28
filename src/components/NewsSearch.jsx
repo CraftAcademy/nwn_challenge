@@ -6,11 +6,9 @@ import { Button, Input, List } from "semantic-ui-react";
 function NewsSearch() {
   
   const dispatch = useDispatch();
-  const showArticles = useSelector((state) => state.articleSearch);
+  const showArticles = useSelector(state => state.articleSearch)
 
-  useEffect(() => {
-    NewsService.index(dispatch);
-  });
+  useEffect(showArticles, [])
 
     return (
       <>
@@ -20,7 +18,7 @@ function NewsSearch() {
         </Button>
         <div data-cy="search_results">
           <List>
-            <List.Item>{articleSearch}</List.Item>
+            <List.Item>{showArticles}</List.Item>
           </List>
         </div>
       </>

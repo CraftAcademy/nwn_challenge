@@ -7,11 +7,7 @@ const NewsIndex = () => {
   const dispatch = useDispatch();
   const articles = useSelector((state) => state.newsFeed);
 
-  useEffect(() => {
-    NewsService.index(dispatch);
-  });
-
-
+  useEffect(NewsService, []);
 
   return (
     <>
