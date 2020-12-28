@@ -1,4 +1,6 @@
-const rootReducer = (state, action) => {
+import initialState from "../store/initialState"
+
+const rootReducer = (state=initialState, action) => {
 
   switch (action.type) {
     case "SET_NEWS_FEED":
