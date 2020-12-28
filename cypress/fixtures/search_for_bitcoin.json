@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 4859,
+  "articles": [
+  {
+  "source": {
+        "id": null,
+        "name": "Lifehacker.com"
+      },
+      "author": "Mike Winters on Two Cents, shared by Mike Winters to Lifehacker",
+      "title": "Is the New Visa Bitcoin Rewards Card Worth It?",
+      "description": "Visa has partnered with cryptocurrency startup BlockFi to offer the first rewards credit card that pays out in Bitcoin rather than cash, but is it worth applying for? Unless you’re extremely bullish on cryptocurrency and don’t mind getting seriously dinged fo…",
+      "url": "https://twocents.lifehacker.com/is-the-new-visa-bitcoin-rewards-card-worth-it-1845803159",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a2650t4nr8r2uyujbnfu.png",
+      "publishedAt": "2020-12-03T22:00:00Z",
+      "content": "Visa has partnered with cryptocurrency startup BlockFi to offer the first rewards credit card that pays out in Bitcoin rather than cash, but is it worth applying for? Unless youre extremely bullish o… [+2239 chars]"
+    },
+  {
+  "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Romain Dillet",
+      "title": "Bitcoin passes $20k and reaches all-time high",
+      "description": "After reaching a previous all-time high on November 30th, 2020 and December 1st, 2020, bitcoin is now trading well above $20,000 and has surpassed its previous peak price. Bitcoin’s value has rapidly increased over the past two months. According to CoinMarket…",
+      "url": "http://techcrunch.com/2020/12/16/bitcoin-passes-20k-and-reaches-all-time-high/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/11/gettyimages-869865484.jpg?w=602",
+      "publishedAt": "2020-12-16T17:12:40Z",
+      "content": "After reaching a previous all-time high on November 30th, 2020 and December 1st, 2020, bitcoin is now trading well above $20,000 and has surpassed its previous peak price.\r\nBitcoins value has rapidly… [+1062 chars]"
+    },
+  {
+  "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Rhett Jones",
+      "title": "Bitcoin Blows Past $20,000 Milestone",
+      "description": "It’s been almost three years to the day since the price of Bitcoin was close to breaking the $20,000 ceiling and came crashing down. On Wednesday, the arbitrary milestone of hodlers’ dreams was finally achieved. Read more...",
+      "url": "https://gizmodo.com/bitcoin-blows-past-20-000-milestone-1845894176",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d0onbvzvpdtd1ae3nufg.jpg",
+      "publishedAt": "2020-12-16T15:15:00Z",
+      "content": "Its been almost three years to the day since the price of Bitcoin was close to breaking the $20,000 ceiling and came crashing down. On Wednesday, the arbitrary milestone of hodlers dreams was finally… [+1273 chars]"
+    },
+  {
+  "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Alex Wilhelm",
+      "title": "Is rising usage driving crypto’s recent price boom?",
+      "description": "Do the price gains make sense in the short-term? Who knows. But they are not based on nothing.",
+      "url": "http://techcrunch.com/2020/12/17/is-rising-usage-driving-cryptos-recent-price-boom/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/05/NSussman_Techcrunch_Exchange_v3_GRY.jpg?w=533",
+      "publishedAt": "2020-12-17T16:01:42Z",
+      "content": "Everything is dumb until it works.\r\nAs 2020 comes to a close, the cryptocurrency world is experiencing another late-year surge of consumer interest as prices climb in value. Bitcoin is over $23,000 a… [+1705 chars]"
+    }
+    
+  }
