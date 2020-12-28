@@ -5,11 +5,17 @@ import { Button, Input } from "semantic-ui-react";
 
 const NewsSearch = () => {
   return (
-    <Input type="text" data-cy="search_input" placeholder="Search..." action>
-      <Button type="submit" data-cy="search_button">
+    <>
+    <Input
+    type="text"
+    data-cy="search_input" 
+    />
+    <Button 
+    type="submit" 
+    data-cy="search_button">
         Search
       </Button>
-    </Input>
+    </>
   );
 };
 
