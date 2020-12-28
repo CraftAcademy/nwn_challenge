@@ -1,28 +1,22 @@
-import React, {useEffect} from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import NewsService from '../modules/NewsService'
-import NewsCard from './NewsCard'
-import axios from 'axios'
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import NewsService from "../modules/NewsService";
+import NewsCard from "./NewsCard";
 
 const NewsIndex = () => {
-  const dispatch = useDispatch()
-  const articles = useSelector(state => state.articles)
-  const fetchArticles = async () => {
-    let newsFeed = await axios.get('https://newsapi.org/v2/top-headlines?country=se')
-    dispatch({type: "SET_NEWS_FEED", payload: newsFeed.data.data })
- 
+  const dispatch = useDispatch();
+  const articles = useSelector((state) => state.newsFeed);
 
-  useEffect(fetchArticles, [])
-  
+  useEffect(() => {
+    NewsService.index(dispatch);
+  });
+
+
+
   return (
     <>
-  
-      
-        <NewsCard />
-  
-     
+      <NewsCard />
     </>
-  )
-}
-}
-export default NewsIndex
+  );
+};
+export default NewsIndex;

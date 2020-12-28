@@ -1,11 +1,17 @@
-import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import NewsService from "../modules/NewsService";
 import { Button, Input, List } from "semantic-ui-react";
-import axios from "axios";
 
-function NewSearch() {
+function NewsSearch() {
   
+  const dispatch = useDispatch();
+  const showArticles = useSelector((state) => state.articleSearch);
+
+  useEffect(() => {
+    NewsService.index(dispatch);
+  });
+
     return (
       <>
         <Input type="text" data-cy="search_input" />
@@ -14,7 +20,7 @@ function NewSearch() {
         </Button>
         <div data-cy="search_results">
           <List>
-            <List.Item>{displayArticles}</List.Item>
+            <List.Item>{articleSearch}</List.Item>
           </List>
         </div>
       </>
