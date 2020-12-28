@@ -38,5 +38,10 @@ describe('Visitor', () => {
           );
       });
     });
+    it('see an error message if input is not provided', () => {
+      cy.get('[data-cy="search-input"]').type(' ');
+      cy.get('[data-cy="search-button"]').click();
+      cy.get('[data-cy="error-message"]').contains('Please provide search input')
+    })
   });
 });
