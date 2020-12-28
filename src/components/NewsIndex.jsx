@@ -19,7 +19,16 @@ const NewsIndex = () => {
   return (
     <Card.Group data-cy="index">
       {newsFeed.map((article, index) => {
-        return <NewsCard {...article} id={index} />;
+        return (
+          <NewsCard
+            id={index}
+            imageUrl={article.urlToImage}
+            title={article.title}
+            author={article.author}
+            description={article.description}
+            publishedDate={article.publishedAt}
+          />
+        );
       })}
     </Card.Group>
   );
