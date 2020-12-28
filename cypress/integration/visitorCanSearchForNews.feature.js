@@ -6,7 +6,7 @@ describe('Visitor', () => {
       cy.route({
         method: 'GET',
         url:
-          'http://newsapi.org/v2/everything?q=covid19&from=2020-12-27&sortBy=popularity&language=en&apiKey=*',
+          'http://newsapi.org/v2/everything?q=*&sortBy=popularity&language=en&apiKey=*',
         response: 'fixture:news_search_for_covid.json',
       });
       cy.visit('/');

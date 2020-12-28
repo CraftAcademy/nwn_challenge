@@ -1,14 +1,28 @@
-import axios from "axios";
+import axios from 'axios';
+
+const API_URL = 'http://newsapi.org/v2';
+const API_KEY = 'd8ea72a213734633abb2150dcfe09b51';
 
 const NewsService = {
   async index() {
     const response = await axios.get(
-      "https://newsapi.org/v2/top-headlines?language=en&apiKey=d8ea72a213734633abb2150dcfe09b51"
+      `${API_URL}/top-headlines` + 
+      '?language=en' + 
+      `&apiKey=${API_KEY}`
     );
     return response.data;
   },
 
-  async search(query) {},
+  async search(query) {
+    const response = await axios.get(
+      `${API_URL}/everything` +
+        `?q=${query}` +
+        '&sortBy=popularity' +
+        '&language=en' +
+        `&apiKey=${API_KEY}`
+    );
+    return response.data;
+  },
 };
 
 export default NewsService;
