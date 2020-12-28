@@ -11,6 +11,10 @@ const NewsIndex = () => {
 
   const dispatch = useDispatch()
 
+  const allArticles = useSelector(state => state.newsFeed)
+
+
+
   return (
     <>
       <NewsCard />
