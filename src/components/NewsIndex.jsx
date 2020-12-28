@@ -23,5 +23,5 @@ const NewsIndex = () => {
     </>
   )
 }
-
+}
 export default NewsIndex

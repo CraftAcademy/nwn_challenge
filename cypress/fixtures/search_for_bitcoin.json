@@ -2,8 +2,8 @@
   "status": "ok",
   "totalResults": 4859,
   "articles": [
-  {
-  "source": {
+    {
+      "source": {
         "id": null,
         "name": "Lifehacker.com"
       },
@@ -15,8 +15,8 @@
       "publishedAt": "2020-12-03T22:00:00Z",
       "content": "Visa has partnered with cryptocurrency startup BlockFi to offer the first rewards credit card that pays out in Bitcoin rather than cash, but is it worth applying for? Unless youre extremely bullish o… [+2239 chars]"
     },
-  {
-  "source": {
+    {
+      "source": {
         "id": "techcrunch",
         "name": "TechCrunch"
       },
@@ -28,8 +28,8 @@
       "publishedAt": "2020-12-16T17:12:40Z",
       "content": "After reaching a previous all-time high on November 30th, 2020 and December 1st, 2020, bitcoin is now trading well above $20,000 and has surpassed its previous peak price.\r\nBitcoins value has rapidly… [+1062 chars]"
     },
-  {
-  "source": {
+    {
+      "source": {
         "id": null,
         "name": "Gizmodo.com"
       },
@@ -41,8 +41,8 @@
       "publishedAt": "2020-12-16T15:15:00Z",
       "content": "Its been almost three years to the day since the price of Bitcoin was close to breaking the $20,000 ceiling and came crashing down. On Wednesday, the arbitrary milestone of hodlers dreams was finally… [+1273 chars]"
     },
-  {
-  "source": {
+    {
+      "source": {
         "id": "techcrunch",
         "name": "TechCrunch"
       },
@@ -54,5 +54,5 @@
       "publishedAt": "2020-12-17T16:01:42Z",
       "content": "Everything is dumb until it works.\r\nAs 2020 comes to a close, the cryptocurrency world is experiencing another late-year surge of consumer interest as prices climb in value. Bitcoin is over $23,000 a… [+1705 chars]"
     }
-    
-  }
+  ]
+}
