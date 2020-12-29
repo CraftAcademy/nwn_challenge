@@ -41,14 +41,20 @@ describe('Visitor', () => {
     it('see an error message if input is not provided', () => {
       cy.get('[data-cy="search-input"]').type(' ');
       cy.get('[data-cy="search-button"]').click();
-      cy.get('[data-cy="error-message"]').contains('Please provide search input')
-    })
+      cy.get('[data-cy="error-message"]').contains(
+        'Please provide search input'
+      );
+    });
     it('see top headlines button after search result displayed', () => {
       cy.get('[data-cy="search-input"]').type('covid19');
       cy.get('[data-cy="search-button"]').click();
-      cy.get('[data-cy="top-headlines-button"]').should('exist')
-    })
-
-
+      cy.get('[data-cy="top-headlines-button"]').should('exist');
+    });
+    it('click on "top healines button" to return to top headlines', () => {
+      cy.get('[data-cy="search-input"]').type('covid19');
+      cy.get('[data-cy="search-button"]').click();
+      cy.get('[data-cy="top-headlines-button"]').click();
+      cy.get('[data-cy="index"]').should('exist');
+    });
   });
 });
