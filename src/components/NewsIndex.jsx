@@ -2,17 +2,19 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import NewsService from "../modules/NewsService";
 import NewsCard from "./NewsCard";
+import { Card } from 'semantic-ui-react' 
 
 const NewsIndex = () => {
   const dispatch = useDispatch();
   const articles = useSelector((state) => state.newsFeed);
 
-  useEffect(NewsService, []);
+  useEffect(() => {
+    NewsService.index(dispatch);
+  }, []);
 
-  return (
-    <>
-      <NewsCard />
-    </>
-  );
+  let articlesDisplay = articles.map((article) => {
+    return <NewsCard article={article}/>;
+  });
+  return <Card>{articlesDisplay}</Card>
 };
 export default NewsIndex;

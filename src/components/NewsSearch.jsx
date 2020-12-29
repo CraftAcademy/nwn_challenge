@@ -5,10 +5,10 @@ import { Button, Input, List } from "semantic-ui-react";
 
 function NewsSearch() {
   
-  const dispatch = useDispatch();
-  const showArticles = useSelector(state => state.articleSearch)
+  // const dispatch = useDispatch();
+  // const showArticles = useSelector(state => state.articleSearch)
 
-  useEffect(showArticles, [])
+  // useEffect(showArticles, [])
 
     return (
       <>
@@ -18,7 +18,7 @@ function NewsSearch() {
         </Button>
         <div data-cy="search_results">
           <List>
-            <List.Item>{showArticles}</List.Item>
+            {/* <List.Item>{showArticles}</List.Item> */}
           </List>
         </div>
       </>
