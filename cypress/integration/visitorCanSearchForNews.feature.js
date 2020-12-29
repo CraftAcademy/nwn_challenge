@@ -43,5 +43,12 @@ describe('Visitor', () => {
       cy.get('[data-cy="search-button"]').click();
       cy.get('[data-cy="error-message"]').contains('Please provide search input')
     })
+    it('see top headlines button after search result displayed', () => {
+      cy.get('[data-cy="search-input"]').type('covid19');
+      cy.get('[data-cy="search-button"]').click();
+      cy.get('[data-cy="top-headlines-button"]').should('exist')
+    })
+
+
   });
 });
