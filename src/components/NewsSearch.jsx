@@ -6,11 +6,13 @@ import { Form } from 'semantic-ui-react';
 const NewsSearch = () => {
   const dispatch = useDispatch();
   const [message, setMessage] = useState('');
+  const [isSearched, setIsSearched] = useState(false);
 
   const getNewsResult = async (query) => {
     const newsResultData = await NewsService.search(query);
     dispatch({ type: 'SET_NEWS_FEED', payload: newsResultData.articles });
     setMessage('');
+    setIsSearched(true);
   };
 
   const onSubmitHandler = (event) => {
@@ -39,6 +41,13 @@ const NewsSearch = () => {
             </td>
             <td>
               <Form.Button data-cy="search-button">Search</Form.Button>
+            </td>
+            <td>
+              {isSearched && (
+                <Form.Button data-cy="top-headlines-button">
+                  Top Headlines
+                </Form.Button>
+              )}
             </td>
           </tr>
           <tr>
