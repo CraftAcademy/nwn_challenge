@@ -4,7 +4,7 @@ import { Header, Card } from "semantic-ui-react";
 const NewsCard = ({props}) => {
   debugger
   return (
-    <Card
+    <Card data-cy="articleCard" key={props.id}
       image={props.urlToImage}
       header={props.title}
       meta={`By: ${props.author} at ${props.source.name}`}
