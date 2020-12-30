@@ -23,17 +23,15 @@ const NewsIndex = () => {
 
   return (
     <>
-    {articles.length ? (
-      <ul data-cy="article-index">{articlesDisplay}</ul>
-    ) : (
-      <Container data-cy="empty-index">
-        <h1>Sorry, no articles are available right now</h1>
-      </Container>
-    
-    )}
+      {articles.length ? (
+        <ul data-cy="article-index">{articlesDisplay}</ul>
+      ) : (
+        <Container data-cy="empty-index">
+          <h1>Sorry, there are no articles are available right now</h1>
+        </Container>
+      )}
     </>
-  )    
+  );
 };
-
 
 export default NewsIndex;
