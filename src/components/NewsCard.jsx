@@ -7,9 +7,9 @@ const NewsCard = ({ article }) => {
       data-cy="article-index"
       image={article.urlToImage}
       header={article.title}
-      meta={`By: ${"article.author"} at ${article.source.name}`}
+      meta={`By: ${article.author} at ${article.source.name}`}
       description={article.description}
-      extra={<Header as="h6">{`Published at ${"publishedAt"}`}</Header>}
+      extra={<Header as="h6">{`Published at ${article.publishedAt}`}</Header>}
     />
   );
 };
