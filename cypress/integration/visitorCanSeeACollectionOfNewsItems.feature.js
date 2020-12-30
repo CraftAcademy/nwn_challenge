@@ -4,7 +4,7 @@ describe("A user can see list of articles", () => {
       cy.server();
       cy.route({
         method: "GET",
-        url: "http://localhost:3000/api/articles",
+        url: "https://newsapi.org/v2/top-headlines?country=se&apiKey=**",
         response: "fixture:news_index.json",
       });
       cy.visit("/");
