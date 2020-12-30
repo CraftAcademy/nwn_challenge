@@ -1,3 +1,4 @@
+import {  } from "../store/ini";
 const rootReducer = (state, action) => {
   switch (action.type) {
     case "SET_NEWS_FEED":
