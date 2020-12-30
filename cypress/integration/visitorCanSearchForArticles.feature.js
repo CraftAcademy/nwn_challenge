@@ -5,7 +5,7 @@ describe("User can search for articles", () => {
       cy.route({
         url: "https://newsapi.org/v2/everything?q=bitcoin&apiKey=**",
         method: "GET",
-        response: "fixture:search_for_bitcoin",
+        response: "fixture:search_for_bitcoin.json",
       });
       cy.visit("/");
       cy.get("[data-cy='search_input']").type("bitcoin");
@@ -13,7 +13,7 @@ describe("User can search for articles", () => {
     });
 
     it("is expected to show the search result", () => {
-      cy.get("[data-cy='search_results']").within(() => {
+      cy.get("[data-cy='article-index']").within(() => {
         cy.get(".image").should("exist");
         cy.get(".header").contains(
           "Is the New Visa Bitcoin Rewards Card Worth It?"
