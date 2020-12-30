@@ -13,8 +13,8 @@ const NewsIndex = () => {
   }, []);
 
   let articlesDisplay = articles.map((article) => {
-    return <NewsCard article={article}/>;
+    return <NewsCard article={article} />;
   });
-  return <Card>{articlesDisplay}</Card>
+  return <Card.Group >{articlesDisplay} </Card.Group>
 };
 export default NewsIndex;

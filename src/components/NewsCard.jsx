@@ -9,7 +9,7 @@ const NewsCard = ({ article }) => {
       header={article.title}
       meta={`By: ${"article.author"} at ${article.source.name}`}
       description={article.description}
-      extra={<Header as="h6">`Published at ${"publishedAt"}`</Header>}
+      extra={<Header as="h6">{`Published at ${"publishedAt"}`}</Header>}
     />
   );
 };
