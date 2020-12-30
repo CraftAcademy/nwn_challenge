@@ -7,17 +7,21 @@ import NewsCard from './NewsCard'
 const NewsIndex = () => {
   useEffect(() => {
     NewsService.index(dispatch)
-  })
+  },[])
 
   const dispatch = useDispatch()
 
   const allArticles = useSelector(state => state.newsFeed)
+  debugger
+  let display = allArticles.map((item) => {
+    return <NewsCard props={item} />
+  })
 
 
 
   return (
     <>
-      <NewsCard />
+      {display}
     </>
   )
 }
