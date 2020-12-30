@@ -9,10 +9,10 @@ const NewsService = {
   },
 
   async search(query) {
-    let searchResult = await axios.get(
+    let result = await axios.get(
       `https://newsapi.org/v2/everything?q=${query}&country=se&apiKey=48fd0dea52e94e779588814f143e8e88`
     );
-    return searchResult.data.articles;
+    return result.data.articles;
   },
 };
 
