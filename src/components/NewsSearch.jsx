@@ -4,11 +4,12 @@ import NewsService from "../modules/NewsService";
 import { Button, Input, List } from "semantic-ui-react";
 
 function NewsSearch() {
-  
   const dispatch = useDispatch();
-  const showArticles = useSelector(state => state.articleSearch)
-
-  useEffect(showArticles, [])
+  const [searchResult, setSearchResult] = useState()
+  const fetchArticleSearch = async () => {
+    let articlesResult = await NewsService.search(searchResult)
+    dispatch({ type: "SET_NEWS_FEED", payload: articlesResult })
+  }
 
     return (
       <>
