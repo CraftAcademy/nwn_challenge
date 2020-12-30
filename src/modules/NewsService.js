@@ -9,13 +9,10 @@ const NewsService = {
   },
 
   async search(query) {
-    let articleSearch = await axios.get(
-      "https://newsapi.org/v2/everything?country=se&apiKey=48fd0dea52e94e779588814f143e8e88"
+    let searchResult = await axios.get(
+      `https://newsapi.org/v2/everything?q=${query}&country=se&apiKey=48fd0dea52e94e779588814f143e8e88`
     );
-    dispatchEvent({
-      type: "SEARCH_ARTICLES",
-      payload: articleSearch.data.articles,
-    });
+    return searchResult.data.articles;
   },
 };
 
