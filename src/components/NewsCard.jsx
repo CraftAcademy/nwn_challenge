@@ -2,7 +2,6 @@ import React from "react";
 import { Header, Card } from "semantic-ui-react";
 
 const NewsCard = ({props}) => {
-  debugger
   return (
     <Card data-cy="articleCard" key={props.id}
       image={props.urlToImage}

@@ -12,7 +12,6 @@ const NewsIndex = () => {
   const dispatch = useDispatch()
 
   const allArticles = useSelector(state => state.newsFeed)
-  debugger
   let display = allArticles.map((item) => {
     return <NewsCard props={item} />
   })
