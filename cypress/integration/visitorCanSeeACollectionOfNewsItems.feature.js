@@ -11,7 +11,7 @@ describe("On index page ", () => {
   });
 
   it("user can see first article card ", () => {
-    cy.get("[data-cy='news-card']").within(() => {
+    cy.get("[data-cy='article-news-card']").within(() => {
       cy.contains(
         "DBS Bank to launch cryptocurrency exchange after condemning Bitcoin a Ponzi scheme in 2017"
       );
