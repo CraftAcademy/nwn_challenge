@@ -1,20 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import { useSelector } from 'react-redux'
-import NewsCard from './NewsCard'
-import axios from 'axios'
-import NewsService from '../modules/NewsService'
+import React, { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+import NewsCard from "./NewsCard";
+import NewsService from "../modules/NewsService";
 import { Card } from "semantic-ui-react";
 
-
-
 const NewsIndex = () => {
-  const [articlesData, setArticlesData] = useState([])
+  const [articlesData, setArticlesData] = useState([]);
   const getNewsService = async () => {
-    let response = await NewsService.index()
-    setArticlesData(response)
-    console.log(response)
-  }
-  
+    let response = await NewsService.index();
+    setArticlesData(response);
+    debugger;
+  };
+
   useEffect(() => {
     getNewsService();
   }, []);
@@ -30,16 +27,9 @@ const NewsIndex = () => {
 
   return (
     <>
-      <ul>{articleIndex}</ul>
-
-      {/* <NewsCard />
-      <div>
-        {articlesData.map(article => {
-          return (<li key={article.id}>{article.title} { article.author}</li>)
-        })}
-      </div> */}
+      <ul data-cy="articles-index">{articleIndex}</ul>
     </>
-  )
-}
+  );
+};
 
-export default NewsIndex
+export default NewsIndex;

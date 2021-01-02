@@ -4,21 +4,18 @@ describe("On index page ", () => {
     cy.server();
     cy.route({
       method: "GET",
-      url: "http://newsapi.org/v2/top-headlines",
+      url: "http://newsapi.org/v2/top-headlines?country=us",
       response: "fixture:new_index.json",
     });
     cy.visit("/");
   });
 
-  it("user can see first article card ", () => {
-    cy.get("[data-cy='article-news-card']").within(() => {
-      cy.contains(
-        "DBS Bank to launch cryptocurrency exchange after condemning Bitcoin a Ponzi scheme in 2017"
-      );
-      cy.contains("FXStreet");
-      cy.contains(
-        "DBS Bank of Singapore has just announced the launch of a digital asset exchange featuring Bitcoin"
-      );
+  it("successfully render NewsCards with content", () => {
+    cy.get("[data-cy='articles-index']").within(() => {
+      cy.get(".image").should("exist");
+      cy.get(".header").should("exist");
+      cy.get(".meta").should("exist");
+      cy.get(".description").should("exist");
     });
   });
 });
