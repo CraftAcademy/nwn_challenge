@@ -9,7 +9,7 @@ const NewsIndex = () => {
   const getNewsService = async () => {
     let response = await NewsService.index();
     setArticlesData(response);
-    debugger;
+    
   };
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const NewsIndex = () => {
 
   let articleIndex;
   articleIndex = (
-    <Card.Group itemsPerRow={5}>
+    <Card.Group itemsPerRow={3}>
       {articlesData.map((article) => {
         return <NewsCard article={{ ...article }} />;
       })}
