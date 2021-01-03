@@ -21,7 +21,7 @@ describe("User can search for articles", () => {
         cy.get(".meta").should("contain", "Lifehacker.com");
         cy.get(".description").should(
           "contain",
-          "Visa has partnered with cryptocurrency startup BlockFi to offer the first rewards credit card that pays out in Bitcoin rather than cash, but is it worth applying for? Unless you’re extremely bullish on cryptocurrency and don’t mind getting seriously dinged fo…"
+          "Do the price gains make sense in the short-term? Who knows. But they are not based on nothing."
         );
       });
     });
