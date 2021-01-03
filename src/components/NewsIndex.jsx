@@ -17,7 +17,7 @@ const NewsIndex = () => {
   }, [dispatch]);
 
   return (
-    <Card.Group data-cy="index">
+    <Card.Group data-cy="index" itemsPerRow={4}>
       {newsFeed.map((article, index) => {
         return (
           <NewsCard
