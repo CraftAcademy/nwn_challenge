@@ -12,26 +12,11 @@ const NewsIndex = () => {
     NewsService.index(dispatch);
   }, []);
 
-  let articlesDisplay;
-  articlesDisplay = (
-    <Card.Group itemsPerRow={4}>
-      {articles.map((article) => {
-        return <NewsCard article={{ ...article }} />;
-      })}
-    </Card.Group>
-  );
+  let articlesDisplay = articles.map((article) => {
+    return <NewsCard article={article} />;
+  });
 
-  return (
-    <>
-      {articles.length ? (
-        <ul data-cy="article-index">{articlesDisplay}</ul>
-      ) : (
-        <Container data-cy="empty-index">
-          <h1>Sorry, there are no articles are available right now</h1>
-        </Container>
-      )}
-    </>
-  );
+  return <Card.Group itemsPerRow={4}>{articlesDisplay}</Card.Group>;
 };
 
 export default NewsIndex;
