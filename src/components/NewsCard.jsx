@@ -11,7 +11,7 @@ const NewsCard = ({
 }) => {
   return (
     <Card data-cy={`article-${id}`}>
-      <Image data-cy="image" wrapped ui={false} src={`${imageUrl}`} />
+      <Image data-cy="image" src={`${imageUrl}`} />
       <Card.Content>
         <Card.Header data-cy="title">{title}</Card.Header>
         <Card.Description data-cy="description">{description}</Card.Description>
