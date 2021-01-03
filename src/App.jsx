@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Menu style={{ borderRadius: 0, background: "" }}>
         <Menu.Item>
-          <Image src={logo} size="tiny" centered />
+          <Image src={logo} size="small" centered />
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item>
@@ -18,8 +18,8 @@ const App = () => {
         </Menu.Menu>
       </Menu>
       <Container>
-        <Header as="h2">News Wire Network</Header>
-        <p>News from around the world</p>
+        <Header as="h1">News Wire Network</Header>
+        <h3>News from around the world</h3>
         <NewsIndex />
       </Container>
     </>
