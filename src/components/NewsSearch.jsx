@@ -7,9 +7,8 @@ const NewsSearch = () => {
   const dispatch = useDispatch();
   const [searchResult, setSearchResult] = useState();
   const fetchArticleSearch = async () => {
-    let articlesResult = await NewsService.search(searchResult);
-    dispatch({ type: "SET_NEWS_FEED", payload: articlesResult });
-    debugger
+    let result = await NewsService.search(searchResult);
+    dispatch({ type: "SET_NEWS_FEED", payload: result });
   };
 
   return (
@@ -26,7 +25,7 @@ const NewsSearch = () => {
       >
         Search
       </Button>
-      <di></di>
+     
     </>
   );
 }
