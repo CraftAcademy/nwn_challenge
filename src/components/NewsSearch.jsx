@@ -7,8 +7,8 @@ const NewsSearch = () => {
   const dispatch = useDispatch();
   const [searchResult, setSearchResult] = useState();
   const fetchArticleSearch = async () => {
-    let result = await NewsService.search(searchResult);
-    dispatch({ type: "SET_NEWS_FEED", payload: result });
+    let resultSearch = await NewsService.search(searchResult);
+    dispatch({ type: "SET_NEWS_FEED", payload: resultSearch });
   };
 
   return (
@@ -17,7 +17,7 @@ const NewsSearch = () => {
         data-cy="search_input"
         type="text"
         placeholder="Search..."
-        onBlur={(event) => setSearchResult(event.target.value)}
+        onChange={(event) => setSearchResult(event.target.value)}
       />
       <Button  
       data-cy="search_button"

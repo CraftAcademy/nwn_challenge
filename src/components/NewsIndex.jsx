@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import NewsService from "../modules/NewsService";
 import NewsCard from "./NewsCard";
-import { Card, Container } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
 
 const NewsIndex = () => {
   const dispatch = useDispatch();

@@ -24,22 +24,3 @@ describe("A user can see list of articles", () => {
         );
       });
     });
-
-    describe("if there are no articles", () => {
-      before(() => {
-        cy.server();
-        cy.route({
-          method: "GET",
-          url: "https://newsapi.org/v2/top-headlines?country=se&apiKey=**",
-          response: { articles: [] },
-        });
-        cy.visit("/");
-      });
-
-      it("is presented with an error message", () => {
-        cy.get("[data-cy='article-index']").should("not.exist");
-        cy.get("[data-cy='empty-index']").should("exist");
-      });
-    });
-  });
-});
