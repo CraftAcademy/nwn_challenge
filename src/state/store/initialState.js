@@ -1,5 +1,5 @@
 const initialState = {
-  newsFeed: []
-}
+	newsFeed: [],
+};
 
-export default initialState
+export default initialState;

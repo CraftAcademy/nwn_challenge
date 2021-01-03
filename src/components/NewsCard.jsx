@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, Card } from "semantic-ui-react";
 
-const NewsCard = ({article}) => {
+const NewsCard = ({ article }) => {
 	return (
 		<Card
 			data-cy="news-index"

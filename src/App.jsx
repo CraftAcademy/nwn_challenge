@@ -16,7 +16,7 @@ const App = () => {
 					<Image
 						data-cy="newsindex-button"
 						src={logo}
-            size="tiny"
+						size="tiny"
 						onClick={() => NewsService.index(dispatch)}
 					/>
 				</Menu.Item>
