@@ -14,7 +14,7 @@ describe("visitor can search...", () => {
     cy.get("[data-cy='search-button']").click();
     cy.wait(400);
     cy.get("[data-cy='articleCard']").within(() => {
-      cy.contains("Langa, 30, har haft muterade viruset")
+      cy.contains("Langa, 30, har haft muterade viruset");
     });
   });
 });
