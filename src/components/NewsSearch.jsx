@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import NewsService from '../modules/NewsService'
-import { Input } from 'semantic-ui-react'
+import { Input, Button } from 'semantic-ui-react'
 
 
 const NewsSearch = () => {
   return (
-    <Input action='Search' placeholder='Search...' />
+    <>
+    <Input data-cy="search_input" type="text" placeholder="Search category" ></Input>
+    <Button data-cy="search_button">Search</Button>
+    </>
+
   )
 }
 
