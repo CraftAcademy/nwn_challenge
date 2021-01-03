@@ -9,7 +9,6 @@ const NewsIndex = () => {
   const getNewsService = async () => {
     let response = await NewsService.index();
     setArticlesData(response);
-    
   };
 
   useEffect(() => {
