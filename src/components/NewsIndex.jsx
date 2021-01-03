@@ -18,8 +18,8 @@ const NewsIndex = () => {
   let articleIndex;
   articleIndex = (
     <Card.Group itemsPerRow={3}>
-      {articlesData.map((article) => {
-        return <NewsCard article={{ ...article }} />;
+      {articlesData.map((article, index) => {
+        return <NewsCard article={{ ...article, id: index}} />;
       })}
     </Card.Group>
   );
