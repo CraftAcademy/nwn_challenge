@@ -1,16 +1,16 @@
-const rootReducer = (state, action) => {
-
+const rootReducer = (state = { newsFeed: { articles: [] } }, action) => {
   switch (action.type) {
     case "SET_NEWS_FEED":
       return {
         ...state,
-        newsFeed: action.payload
-      }
+        newsFeed: {
+          articles: action.payload,
+        },
+      };
 
     default:
-      return state
+      return state;
   }
+};
 
-}
-
-export default rootReducer
+export default rootReducer;

@@ -1,266 +1,286 @@
 {
   "status": "ok",
-  "totalResults": 6635,
+  "totalResults": 3461,
   "articles": [
     {
       "source": {
-        "id": null,
-        "name": "Slashdot.org"
+        "id": "google-news",
+        "name": "Google News"
       },
-      "author": "modemflame5",
-      "title": "How Do Bitcoin Transactions Work?",
-      "description": "Moreover Bitcoin works as an investment take benefit cryptocurrency and so forth also. But that changed on their Bitcoin HYIP the corporation has modified the investment. Engineers of Bitcoin SV designers can seize info regarding mining OS that. Mining the cu…",
-      "url": "https://slashdot.org/submission/12891278/how-do-bitcoin-transactions-work",
+      "id": 1,
+      "author": null,
+      "title": "Pokémon Go: The Galarian Mr. Mime Ticket Isn't Worth the Price - CBR - Comic Book Resources",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiNGh0dHBzOi8vd3d3LmNici5jb20vcG9rZW1vbi1nby1nYWxhcmlhbi1yaW1lLXRpY2tldC_SAThodHRwczovL3d3dy5jYnIuY29tL3Bva2Vtb24tZ28tZ2FsYXJpYW4tcmltZS10aWNrZXQvYW1wLw?oc=5",
       "urlToImage": null,
-      "publishedAt": "2020-12-10T21:34:39Z",
-      "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Seeking Alpha"
-      },
-      "author": "WWS Swiss Financial Consulting SA",
-      "title": "The Future Of The U.S. Dollar",
-      "description": "The US dollar is still the primary international global reserve currency and still figures as the most important currency in Forex markets.",
-      "url": "https://seekingalpha.com/article/4394136-future-of-u-s-dollar",
-      "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png",
-      "publishedAt": "2020-12-10T21:27:44Z",
-      "content": "The US Dollar Is Still in First Place\r\nThe role of the US dollar in international finance is well established. The greenback is still the main global reserve currency and makes up about 60% of centra… [+9093 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Lisa Butters, Brand Contributor, \n Lisa Butters, Brand Contributor\n https://www.forbes.com/sites/gradsoflife/people/lisabutters/",
-      "title": "How To Build A Trusted Brand In An Untrusted World: Blockchain",
-      "description": "Blockchain technology helped Honeywell’s GoDirect Trade digitize a stubbornly analog marketplace. By bolstering consumer confidence, it can help your business shatter barriers of its own.",
-      "url": "https://www.forbes.com/sites/honeywell/2020/12/10/how-to-build-a-trusted-brand-in-an-untrusted-world-blockchain/",
-      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fd2651e5680b59456e3d2bc%2F0x0.jpg",
-      "publishedAt": "2020-12-10T21:25:37Z",
-      "content": "Blockchain technology helped Honeywells GoDirect Trade digitize a stubbornly analog marketplace. By bolstering consumer confidence, it can help your business shatter barriers of its own.\r\nThe pandemi… [+8683 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CoinDesk"
-      },
-      "author": "Daniel Cawrey",
-      "title": "Market Wrap: Bitcoin Slides Below $18K as ETH Is More Volatile Than BTC in 2020",
-      "description": "Bitcoin slipped below $18,000 again Thursday as ether’s volatility in 2020 shows a different dynamic than BTC.",
-      "url": "https://www.coindesk.com/market-wrap-bitcoin-slides-eth-volatile",
-      "urlToImage": "https://static.coindesk.com/wp-content/uploads/2020/12/cdbpidec10-1200x628.jpg",
-      "publishedAt": "2020-12-10T21:25:19Z",
-      "content": "Weak volumes and rotations into other cryptocurrencies are likely impeding bitcoins price movement from going higher. Meanwhile, ether has been more volatile than bitcoin in 2020 and could remain tha… [+4036 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Wykop.pl"
-      },
-      "author": "bitcoinpl",
-      "title": "Bitcoin a Cyberpunk 2077. Co mają wspólnego?",
-      "description": "\"Cyberpunk 2077\" - dzieło polskiego studia CD Projekt to z pewnością nagłośniejszy i najbardziej wyczekiwany tytuł tego roku. Nic w tym dziwnego, bo gracze czekali na tę produkcję od maja 2012, kiedy to firma opublikowała pierwszą zapowiedź. Apetyt społecznoś…",
-      "url": "https://www.wykop.pl/link/5844191/bitcoin-a-cyberpunk-2077-co-maja-wspolnego/",
-      "urlToImage": "https://www.wykop.pl/cdn/c3397993/link_1607635232mkgsuESHBgRN8zAMzyJXsI,w1200h627f.jpg",
-      "publishedAt": "2020-12-10T21:23:41Z",
-      "content": "Drogi Wykopowiczu\r\nw zaczonym linku do Polityki Prywatnoci przypominamy podstawowe informacje z zakresu przetwarzania danych osobowych dostarczanych przez Ciebie podczas korzystania z naszego serwisu… [+108 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "bwinck@businessinsider.com (Ben Winck)",
-      "title": "US stocks waver as investors digest rising jobless claims and stimulus gridlock",
-      "description": "New US weekly jobless claims unexpectedly jumped to an 11-week high, while continuing claims posted its first weekly increase since August.",
-      "url": "https://www.businessinsider.com/stock-market-news-today-surprise-jobless-continuing-claims-stimulus-gridlock-2020-12",
-      "urlToImage": "https://i.insider.com/5fd287b37b7e05001910746d?width=1200&format=jpeg",
-      "publishedAt": "2020-12-10T21:18:13Z",
-      "content": "<ul><li>US stocks closed mixed on Thursday amid disappointing economic data and slowed stimulus progress.</li><li>The S&amp;P 500 and Dow Jones industrial average fell, while tech giants led the Nasd… [+5433 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Drunkenstepfather.com"
-      },
-      "author": "Montana Banks",
-      "title": "Sophie Mudd Tits for Will Ferrell of the Day",
-      "description": "Sophie Mudd built her IG audience because she’s got huge tits, but then she decided to take the higher road and not be shameless about her tits, all while still having tits…it was something I felt she should have been unfollowed and punished for…it’s called a…",
-      "url": "https://drunkenstepfather.com/2020/12/10/sophie-mudd-tits-for-will-ferrell",
-      "urlToImage": null,
-      "publishedAt": "2020-12-10T21:04:45Z",
-      "content": "Sophie Mudd built her IG audience because she’s got huge tits, but then she decided to take the higher road and not be shameless about her tits, all while still having tits…it was something I felt sh… [+2255 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Zerohedge.com"
-      },
-      "author": "Tyler Durden",
-      "title": "Bonds & Black Gold Bid As Negative Nabobs Battle New Issue Nirvanans",
-      "description": "Bonds & Black Gold Bid As Negative Nabobs Battle New Issue Nirvanans\n\n Tyler Durden\n \nThu, 12/10/2020 - 16:02\n\n Another day, another astoundingly exuberant bid for an IPO as AirBnB opened with one of the biggest pops ($146 vs $68 IPO) since 2008 seemingly con…",
-      "url": "https://www.zerohedge.com/markets/bonds-black-gold-bid-stocks-skid-negative-nattering-nabobs-battle-new-issue-nirvana",
-      "urlToImage": "https://zh-prod-1cc738ca-7d3b-4a72-b792-20bd8d8fa069.storage.googleapis.com/s3fs-public/styles/max_650x650/public/2020-12/2020-12-10_11-51-06.jpg?itok=c4j1Y3PR",
-      "publishedAt": "2020-12-10T21:02:06Z",
-      "content": "Another day, another astoundingly exuberant bid for an IPO as AirBnB opened with one of the biggest pops ($146 vs $68 IPO) since 2008 seemingly confirming JPMorgan's \"market nirvana\" argument. But, \"… [+2824 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Solutions Review"
-      },
-      "author": "Ben Canner",
-      "title": "2021 Predictions: The Year of Malicious Automation by Brad LaPorte",
-      "description": "We’re pleased to announce that the First Annual Cybersecurity Insight Jam proved a wild success. We want to thank both our audience and all of our participants for their involvement and engagement. Dozens of vendors, cybersecurity experts, and researchers sha…",
-      "url": "https://solutionsreview.com/endpoint-security/2021-predictions-the-year-of-malicious-automation-by-brad-laporte/",
-      "urlToImage": "https://solutionsreview.com/endpoint-security/files/2019/05/fileless-malware-mod.jpg",
-      "publishedAt": "2020-12-10T20:57:00Z",
-      "content": "We’re pleased to announce that the First Annual Cybersecurity Insight Jam proved a wild success. We want to thank both our audience and all of our participants for their involvement and engagement.\r\n… [+4666 chars]"
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Olga Kharif",
-      "title": "169-Year-Old Insurer MassMutual Invests $100 Million in Bitcoin",
-      "description": "169-Year-Old Insurer MassMutual Invests $100 Million in Bitcoinbloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2020-12-10/169-year-old-insurer-massmutual-invests-100-million-in-bitcoin",
-      "urlToImage": null,
-      "publishedAt": "2020-12-10T20:45:06Z",
+      "publishedAt": "2020-12-20T14:36:25Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "FXStreet"
+        "name": "Windows Central"
       },
-      "author": "Lorenzo Stroe",
-      "title": "DBS Bank to launch cryptocurrency exchange after condemning Bitcoin a Ponzi scheme in 2017",
-      "description": "DBS Bank of Singapore has just announced the launch of a digital asset exchange featuring Bitcoin, Ethereum, Bitcoin Cash, and XRP and several fiat cu",
-      "url": "https://www.fxstreet.com/cryptocurrencies/news/dbs-bank-to-launch-cryptocurrency-exchange-after-condemning-bitcoin-a-ponzi-scheme-in-2017-202012102029",
-      "urlToImage": "https://editorial.fxstreet.com/images/Markets/Currencies/Digital Currencies/Bitcoin/bitcoins-52602600_Large.jpg",
-      "publishedAt": "2020-12-10T20:29:20Z",
-      "content": "Note: All information on this page is subject to change. The use of this website constitutes acceptance of our user agreement. Please read our privacy policy and legal disclaimer.\r\nTrading foreign ex… [+1338 chars]"
+      "id": 2,
+      "author": "John Levite",
+      "title": "Take $15 off Call of Duty Black Ops Cold War for Xbox One or Xbox Series X at Best Buy - Windows Central",
+      "description": "Get it for $44.99 on the last gen Xbox One or PlayStation 4 or $54.99 on Xbox Series X or PlayStation 5 consoles. This is the standard edition of the game, and the sale price is part of Best Buy's deals of the day so it is only good for today.",
+      "url": "https://www.windowscentral.com/take-15-call-duty-black-ops-cold-war-xbox-one-or-xbox-series-x-best-buy",
+      "urlToImage": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2020/11/call-of-duty-black-ops-cold-war-vietnam.jpg",
+      "publishedAt": "2020-12-20T14:28:45Z",
+      "content": "It's Call of Duty. It really doesn't matter whether it's good or bad, right? It's the game that everyone is playing. If you want the video game of the hour, you need this one. And Best Buy is offerin… [+2130 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "newsBTC"
+        "id": "news24",
+        "name": "News24"
       },
-      "author": "Cole Petersen",
-      "title": "Bitcoin Weak on Lower-Time Frames as Analysts Eye Move to $17,000 Region",
-      "description": "Bitcoin has been flashing some signs of intense weakness throughout the past few days and weeks, which has caused the cryptocurrency’s price to decline below $18,000 on a few occasions. So far, the buying pressure here has been significant enough to catalyze …",
-      "url": "https://www.newsbtc.com/analysis/btc/bitcoin-weak-on-lower-time-frames-as-analysts-eye-move-to-17000-region/",
-      "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/12/shutterstock_204663208.jpg",
-      "publishedAt": "2020-12-10T20:21:15Z",
-      "content": "Bitcoin has been flashing some signs of intense weakness throughout the past few days and weeks, which has caused the cryptocurrency’s price to decline below $18,000 on a few occasions.\r\nSo far, the … [+2152 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
+      "id": 3,
       "author": null,
-      "title": "Institutional Bitcoin Provider NYDIG Announces Minority Stake Purchase by MassMutual",
-      "description": "NEW YORK, Dec. 10, 2020 /PRNewswire/ -- NYDIG, a leading provider of institutional investment and technology solutions for Bitcoin, announced today that Massachusetts Mutual Life Insurance Company (MassMutual) has purchased a minority stake in the company. Al…",
-      "url": "https://prnmedia.prnewswire.com/news-releases/institutional-bitcoin-provider-nydig-announces-minority-stake-purchase-by-massmutual-301190811.html",
-      "urlToImage": null,
-      "publishedAt": "2020-12-10T20:18:00Z",
-      "content": null
+      "title": "WATCH | Bored of Mario Kart? Here are some other karting games to try | Wheels - News24",
+      "description": "Mario Kart has become one of the most iconic karting games in the world but there are a few other alternatives to try that could prove to be even more enjoyable.",
+      "url": "https://www.news24.com/wheels/wildonwheels/watch-bored-of-mario-kart-here-are-some-other-karting-games-to-try-20201220",
+      "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/7811/e2bdfc54462b4ab899e34edbd9d8b785.jpg",
+      "publishedAt": "2020-12-20T14:19:29Z",
+      "content": "There is no better way to pass the time quicker than to play some games when you're stuck at home.\r\nSadly, you'll rarely find children outside playing 'kennetjie', hide-and-seek, or building 'forts' … [+1537 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "Theubj.com"
       },
+      "id": 4,
+      "author": "\"Adam N. Rivera\"",
+      "title": "Operation Snowdown is the new seasonal event in Fortnite. - The UBJ",
+      "description": "Epic Games has introduced its brand new seasonal event named 'Operation Snowdown' in popular video game Fortnite. As the name",
+      "url": "https://theubj.com/entertainment/4374/operation-snowdown/",
+      "urlToImage": "https://theubj.com/wp-content/uploads/2020/12/Fortnite-Operation-Snowdown-missions.jpg",
+      "publishedAt": "2020-12-20T14:16:26Z",
+      "content": "Epic Games has introduced its brand new seasonal event named ‘Operation Snowdown’ in popular video game Fortnite. As the name suggests, the new event will be having a winter theme. This latest event … [+1667 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Theubj.com"
+      },
+      "id": 5,
+      "author": "\"Adam N. Rivera\"",
+      "title": "Operation Snowdown is the new seasonal event in Fortnite. - The UBJ",
+      "description": "Epic Games has introduced its brand new seasonal event named 'Operation Snowdown' in popular video game Fortnite. As the name",
+      "url": "https://theubj.com/entertainment/4374/operation-snowdown/",
+      "urlToImage": "https://theubj.com/wp-content/uploads/2020/12/Fortnite-Operation-Snowdown-missions.jpg",
+      "publishedAt": "2020-12-20T14:16:26Z",
+      "content": "Epic Games has introduced its brand new seasonal event named ‘Operation Snowdown’ in popular video game Fortnite. As the name suggests, the new event will be having a winter theme. This latest event … [+1667 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "id": 6,
+      "author": "Vikki Blake",
+      "title": "GOG advises Cyberpunk 2077 players to \"keep a lower amount of items\" to avoid corrupting save files - Eurogamer.net",
+      "description": null,
+      "url": "https://www.eurogamer.net/articles/2020-12-20-gog-advises-cyberpunk-2077-players-to-keep-a-lower-amount-of-items-to-avoid-corrupting-save-files",
+      "urlToImage": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-12-20-13-59/-1608472793155.jpg/EG11/resize/1200x-1/-1608472793155.jpg",
+      "publishedAt": "2020-12-20T14:07:43Z",
+      "content": "In the latest of a long litany of issues, reports are now coming in that Cyberpunk 2077 save files are becoming permanently corrupted for players if they exceed 8MB in size.\r\nThough initially reporte… [+2009 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "id": 7,
+      "author": "Vikki Blake",
+      "title": "GOG advises Cyberpunk 2077 players to \"keep a lower amount of items\" to avoid corrupting save files - Eurogamer.net",
+      "description": null,
+      "url": "https://www.eurogamer.net/articles/2020-12-20-gog-advises-cyberpunk-2077-players-to-keep-a-lower-amount-of-items-to-avoid-corrupting-save-files",
+      "urlToImage": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-12-20-13-59/-1608472793155.jpg/EG11/resize/1200x-1/-1608472793155.jpg",
+      "publishedAt": "2020-12-20T14:07:43Z",
+      "content": "In the latest of a long litany of issues, reports are now coming in that Cyberpunk 2077 save files are becoming permanently corrupted for players if they exceed 8MB in size.\r\nThough initially reporte… [+2009 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sindonews.com"
+      },
+      "id": 8,
+      "author": "Muh Iqbal Marsyaf",
+      "title": "Daftar Smartphone dengan Pengisian Baterai Tercepat di Tahun... - SINDOnews.com",
+      "description": "Tahun 2020 menjadi periode pabrikan menghadirkan smartphone dengan kecepatan pengisian baterai tercepat di dunia. Ya, fast charging menjadi pertimbangan konsumen...",
+      "url": "https://tekno.sindonews.com/read/274908/122/daftar-smartphone-dengan-pengisian-baterai-tercepat-di-tahun-2020-1608469963",
+      "urlToImage": "https://pict.sindonews.net/dyn/620/pena/news/2020/12/20/122/274908/daftar-smartphone-dengan-pengisian-baterai-tercepat-di-tahun-2020-pcv.jpg",
+      "publishedAt": "2020-12-20T14:05:20Z",
+      "content": "JAKARTA - Tahun 2020 menjadi periode perlombaan pabrikan menghadirkan smartphone dengan kecepatan pengisian baterai tercepat di dunia. Ya fast charging menjadi salah satu pertimbangan konsumen untuk … [+3317 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CarScoops"
+      },
+      "id": 9,
       "author": null,
-      "title": "Institutional Bitcoin Provider NYDIG Announces Minority Stake Purchase by MassMutual",
-      "description": "NEW YORK, Dec. 10, 2020 /PRNewswire/ -- NYDIG, a leading provider of institutional investment and technology solutions for Bitcoin, announced today that Massachusetts Mutual Life Insurance Company (MassMutual) has purchased a minority stake in the company. Al…",
-      "url": "https://www.prnewswire.com/news-releases/institutional-bitcoin-provider-nydig-announces-minority-stake-purchase-by-massmutual-301190811.html",
-      "urlToImage": "https://mma.prnewswire.com/media/1311691/NYDIG_Logo.jpg?p=facebook",
-      "publishedAt": "2020-12-10T20:18:00Z",
-      "content": "NEW YORK, Dec. 10, 2020 /PRNewswire/ -- NYDIG\r\n, a leading provider of institutional investment and technology solutions for Bitcoin, announced today that Massachusetts Mutual Life Insurance Company … [+4429 chars]"
+      "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
+      "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
+      "url": "https://www.carscoops.com/2020/12/mansory-is-now-tuning-lawnmowers-meet-the-air-jordan-sneakers-inspired-x-bstn-gt-xi/",
+      "urlToImage": "https://www.carscoops.com/wp-content/uploads/2020/12/mansory-x-bstn-gt-xi-lawn-mower-0.jpg",
+      "publishedAt": "2020-12-20T14:03:00Z",
+      "content": "Mansory is known for its wild takes on some of the most expensive cars in the world, but their portfolio also includes other products, such as sunglasses, caps, bracelets and money clips.\r\nAs of rece… [+1297 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "PR Newswire",
-      "title": "Institutional Bitcoin Provider NYDIG Announces Minority Stake Purchase by MassMutual",
-      "description": "NYDIG, a leading provider of institutional investment and technology solutions for Bitcoin, announced today that Massachusetts Mutual Life Insurance Company ...",
-      "url": "https://finance.yahoo.com/news/institutional-bitcoin-provider-nydig-announces-201800650.html",
-      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/SDbpqEB68WPWgwm91z35TA--~B/aD04Mzt3PTQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/3c508244ff5367423cb7a093e12be42f",
-      "publishedAt": "2020-12-10T20:18:00Z",
-      "content": "NEW YORK, Dec. 10, 2020 /PRNewswire/ -- NYDIG\r\n, a leading provider of institutional investment and technology solutions for Bitcoin, announced today that Massachusetts Mutual Life Insurance Company … [+4616 chars]"
+      "id": 10,
+      "author": "Rashi Bhattacharyya",
+      "title": "The potential health benefits of eating dark chocolate - Yahoo India News",
+      "description": "Most of the time, people see dark chocolate as comfort food. But did you know that the consumption of this tasty delight might prove to be healthy for your...",
+      "url": "https://in.news.yahoo.com/potential-health-benefits-eating-dark-140314432.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/hm0SgPi3Lr7hMVXLlOiKAg--~B/aD04MDk7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/newsbytes_319/366f383fc2c9029ebd491d841946c720",
+      "publishedAt": "2020-12-20T14:03:00Z",
+      "content": "The potential health benefits of eating dark chocolate\r\n20 Dec 2020: The potential health benefits of eating dark chocolate \r\nMost of the time, people see dark chocolate as comfort food. But did you … [+2650 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Theregister.com"
+        "name": "CarScoops"
       },
-      "author": "Gareth Corfield",
-      "title": "'Malwareless' ransomware campaign operators pwned 83k victims' MySQL servers, 250k databases up for sale",
-      "description": "$500 a pop, $25k 'earned' and not much of a trace left, says Guardicore A “malwareless” ransomware campaign delivered from UK IP addresses targeting weak security controls around internet-facing SQL servers successfully pwned 83,000 victims, according to Isra…",
-      "url": "https://www.theregister.com/2020/12/10/mysql_malwareless_ransomware/",
-      "urlToImage": "https://regmedia.co.uk/2016/08/16/hacker.jpg",
-      "publishedAt": "2020-12-10T20:17:32Z",
-      "content": "A malwareless ransomware campaign delivered from UK IP addresses targeting weak security controls around internet-facing SQL servers successfully pwned 83,000 victims, according to Israeli infosec bi… [+3480 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Bitcoin Magazine"
-      },
-      "author": "Nik Hoffman",
-      "title": "MassMutual Buys $100 Million Worth Of Bitcoin",
-      "description": "2020 has seen institutions buy into bitcoin at a record pace. The latest, major insurance company MassMutual, just made a nine-figure entry.\nThe post MassMutual Buys $100 Million Worth Of Bitcoin appeared first on Bitcoin Magazine.",
-      "url": "https://bitcoinmagazine.com/articles/massmutual-buys-100-million-worth-of-bitcoin",
-      "urlToImage": "https://bitcoinmagazine.com/wp-content/uploads/2019/10/Bit-1-1200x630-cropped.jpg",
-      "publishedAt": "2020-12-10T20:11:14Z",
-      "content": "The Massachusetts Mutual Life Insurance Company has jumped on the Bitcoin hype train with the announcement of its purchase of $100 million in BTC for its general insurance account, which totaled almo… [+1451 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Bitcoinist"
-      },
-      "author": "Cole Petersen",
-      "title": "Analyst Claims Ethereum is Almost Ready to See a Massive Markup to $800",
-      "description": "Ethereum has been struggling to break free of its connection to Bitcoin, with the benchmark cryptocurrency having massive control over its price action This has so far been quite bearish for ETH, as it has caused the cryptocurrency to see notable losses on mu…",
-      "url": "https://bitcoinist.com/analyst-claims-ethereum-is-almost-ready-to-see-a-massive-markup-to-800/",
-      "urlToImage": "https://bitcoinist.com/wp-content/uploads/2020/11/nathan-dumlao-ipbVNCyRsX0-unsplash-1920x1280.jpg",
-      "publishedAt": "2020-12-10T20:00:33Z",
-      "content": "<ul><li>Ethereum has been struggling to break free of its connection to Bitcoin, with the benchmark cryptocurrency having massive control over its price action</li><li>This has so far been quite bear… [+2410 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Seeking Alpha"
-      },
+      "id": 11,
       "author": null,
-      "title": "On The Hour",
-      "description": "Dow -0.43%.10-yr +0.18%.Euro +0.43% vs. dollar.Crude +3.01% to $46.89.Gold +0.02% to $1,838.95.Bitcoin +0.65% to $18,399..",
-      "url": "https://seekingalpha.com/news/3643442-on-hour?utm_source=feed_news_all&utm_medium=referral",
-      "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png",
-      "publishedAt": "2020-12-10T20:00:23Z",
-      "content": null
+      "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
+      "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
+      "url": "https://www.carscoops.com/2020/12/mansory-is-now-tuning-lawnmowers-meet-the-air-jordan-sneakers-inspired-x-bstn-gt-xi/",
+      "urlToImage": "https://www.carscoops.com/wp-content/uploads/2020/12/mansory-x-bstn-gt-xi-lawn-mower-0.jpg",
+      "publishedAt": "2020-12-20T14:03:00Z",
+      "content": "Mansory is known for its wild takes on some of the most expensive cars in the world, but their portfolio also includes other products, such as sunglasses, caps, bracelets and money clips.\r\nAs of rece… [+1297 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "newsBTC"
+        "name": "CarScoops"
       },
-      "author": "Tony Spilotro",
-      "title": "Why Massive Bitcoin Miner Outflow Has This Top Quant Analyst “Scared”",
-      "description": "Bitcoin price is still hanging onto $18,000 and is only a couple of grand shy of finally taking out $20,000 and beginning the new bull market. But BTC miners that should be holding in advance of mark up, are suddenly moving massive quantities of the cryptocur…",
-      "url": "https://www.newsbtc.com/analysis/btc/why-massive-bitcoin-miner-outflow-has-this-top-quant-analyst-scared/",
-      "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/12/bitcoin-miner-outflow-btc-Depositphotos_8838317_xl-2015-scaled.jpg",
-      "publishedAt": "2020-12-10T20:00:21Z",
-      "content": "Bitcoin price is still hanging onto $18,000 and is only a couple of grand shy of finally taking out $20,000 and beginning the new bull market. But BTC miners that should be holding in advance of mark… [+3677 chars]"
+      "id": 12,
+      "author": null,
+      "title": "Mansory Is Now Tuning Lawnmowers – Meet The Air Jordan Sneakers-Inspired X BSTN GT XI - CarScoops",
+      "description": "The Mansory X BSTN GT XI sports carbon fiber body panels and a custom racing seat.",
+      "url": "https://www.carscoops.com/2020/12/mansory-is-now-tuning-lawnmowers-meet-the-air-jordan-sneakers-inspired-x-bstn-gt-xi/",
+      "urlToImage": "https://www.carscoops.com/wp-content/uploads/2020/12/mansory-x-bstn-gt-xi-lawn-mower-0.jpg",
+      "publishedAt": "2020-12-20T14:03:00Z",
+      "content": "Mansory is known for its wild takes on some of the most expensive cars in the world, but their portfolio also includes other products, such as sunglasses, caps, bracelets and money clips.\r\nAs of rece… [+1297 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "id": 13,
+      "author": "Anthony Ha, Jordan Crook, Darrell Etherington",
+      "title": "Original Content podcast: The pandemic thriller ‘Songbird’ could have been a lot worse - TechCrunch",
+      "description": "Let’s be clear: “Songbird” is not a good movie. It’s hard to see how it could have been any good, since “Songbird” was written shortly after the pandemic began and filmed a few months later — so the filmmakers had to write a screenplay, shoot it in the midst …",
+      "url": "http://techcrunch.com/2020/12/20/original-content-podcast-the-pandemic-thriller-songbird-could-have-been-a-lot-worse/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/12/songbird-2.jpg?w=711",
+      "publishedAt": "2020-12-20T14:01:21Z",
+      "content": "Let’s be clear: “Songbird” is not a good movie.\r\nIt’s hard to see how it could have been any good, since “Songbird” was written shortly after the pandemic began and filmed a few months later so the f… [+1626 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Idevice.ro"
+      },
+      "id": 14,
+      "author": "Adrian Gabor",
+      "title": "Android: Anuntul IMPORTANT pentru SUTE de MILIOANE de Oameni - iDevice.ro",
+      "description": "Android este astazi din nou in centrul unui anunt foarte important care vizeaza sute de milioane de oameni din intreaga lume, si ar trebui sa stii ce anume se intampla pentru binele nostru chiar in aceste momente. Mai exact, cei de la Google si Qualcomm lucre…",
+      "url": "https://www.idevice.ro/2020/12/20/android-segmentare-447497/",
+      "urlToImage": "https://www.idevice.ro/wp-content/uploads/2020/12/Android-segmentare.jpg",
+      "publishedAt": "2020-12-20T14:01:16Z",
+      "content": "Android este astazi din nou in centrul unui anunt foarte important care vizeaza sute de milioane de oameni din intreaga lume, si ar trebui sa stii ce anume se intampla pentru binele nostru chiar in a… [+1888 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dobreprogramy.pl"
+      },
+      "id": 15,
+      "author": "Piotr Urbaniak",
+      "title": "Izraelscy naukowcy przekształcili pamięć RAM w nadajnik Wi-Fi - dobreprogramy",
+      "description": "Nie, to nie jest żart, ani nawet Adam Słodowy dla bardziej zaawansowanych. To faktyczna metoda ataku, jaką Izrael proponuje w przypadku systemów izolowanych. …",
+      "url": "https://www.dobreprogramy.pl/Izraelscy-naukowcy-przeksztalcili-pamiec-RAM-w-nadajnik-WiFi,News,112354.html",
+      "urlToImage": "https://gallery.dpcdn.pl/imgc/News/100401/g_-_960x640_-_s_x1894d4c9-b49f-41b4-a8d1-7c6f98810e59.png",
+      "publishedAt": "2020-12-20T14:01:00Z",
+      "content": "Nie, to nie jest art, ani nawet Adam Sodowy dla bardziej zaawansowanych. To faktyczna metoda ataku, jak Izrael proponuje w przypadku systemów izolowanych.\r\nNaukowcy z Uniwersytetu Bena Guriona od lat… [+1499 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Moneytimes.com.br"
+      },
+      "id": 16,
+      "author": "Brave New Coin",
+      "title": "Existem riscos não financeiros no blockchain... - Money Times",
+      "description": "A inovação do setor DeFi está acelerando cada vez mais conforme novos produtos sendo criados parecem desafiar as leis das próprias finanças, como empréstimos-relâmpago (sem garantia e livre de riscos, em uma situação de arbitragem vantajosa para todos) (Image…",
+      "url": "https://www.moneytimes.com.br/existem-riscos-nao-financeiros-no-blockchain-ethereum/",
+      "urlToImage": "https://media.moneytimes.com.br/uploads/2020/12/ethereum-2.jpg",
+      "publishedAt": "2020-12-20T14:00:50Z",
+      "content": "A inovação do setor DeFi está acelerando cada vez mais conforme novos produtos sendo criados parecem desafiar as leis das próprias finanças, como empréstimos-relâmpago (sem garantia e livre de riscos… [+11230 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "id": 17,
+      "author": null,
+      "title": "'How do I introduce my black partner to my parents?' - BBC News",
+      "description": "Blindian Project runs workshops to prepare couples for tricky family introductions.",
+      "url": "https://www.bbc.com/news/av/world-us-canada-55372102",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/400xn/p01tlf61.jpg",
+      "publishedAt": "2020-12-20T14:00:44Z",
+      "content": "Blindian Project runs workshops to prepare couples for tricky family introductions.\r\nThis video has been optimised for mobile viewing on the BBC News app. The BBC News app is available from the Apple… [+55 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "id": 18,
+      "author": null,
+      "title": "'How do I introduce my black partner to my parents?' - BBC News",
+      "description": "Blindian Project runs workshops to prepare couples for tricky family introductions.",
+      "url": "https://www.bbc.com/news/av/world-us-canada-55372102",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/400xn/p01tlf61.jpg",
+      "publishedAt": "2020-12-20T14:00:44Z",
+      "content": "Blindian Project runs workshops to prepare couples for tricky family introductions.\r\nThis video has been optimised for mobile viewing on the BBC News app. The BBC News app is available from the Apple… [+55 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Portfolio.hu"
+      },
+      "id": 19,
+      "author": "Portfolio.hu",
+      "title": "Este is képes lesz napenergiát szolgáltatni az új magyar rendszer - Portfolio",
+      "description": "Újabb mérföldkövet ér el hamarosan a megújuló energia magyarországi terjedése, miután befejezéséhez közeledik az ország első, városi tulajdonban lévő, energiatárolóval és naperőművel is integrált okoshálózat-beruházása. A mesterséges intelligenciát is alkalma…",
+      "url": "https://www.portfolio.hu/uzlet/20201220/este-is-kepes-lesz-napenergiat-szolgaltatni-az-uj-magyar-rendszer-462476",
+      "urlToImage": "https://cdn.portfolio.hu/articles/images-xl/n/a/p/napelemgetty-418802.jpg",
+      "publishedAt": "2020-12-20T14:00:00Z",
+      "content": "Portfolio Signature karácsonyra is!A legfontosabb elemzések és exkluzív tartalmak a fa alá. Akár az utolsó pillanatban is megajándékozhatsz valakit egy éves \r\n Portfolio Signature elfizetéssel. Ha pe… [+6651 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Akurat.co"
+      },
+      "id": 20,
+      "author": "Yusuf Tirtayasa",
+      "title": "Update Daftar Harga HP Xiaomi Terbaru Desember 2020 - Bola Akurat",
+      "description": "Update Daftar Harga HP Xiaomi Terbaru Desember 2020",
+      "url": "https://akurat.co/iptek/id-1250940-read-update-daftar-harga-hp-xiaomi-terbaru-desember-2020",
+      "urlToImage": "https://cdn.akurat.co/images/uploads/images/akurat_20201108021043_hc6v4f.jpg",
+      "publishedAt": "2020-12-20T14:00:00Z",
+      "content": "AKURAT.CO, Xiaomi menjadi salah satu vendor smartphone yang banyak diminati pasar Indonesia. Merek ponsel asal Tiongkok yang sudah berdiri sejak 2010 ini dikenal karena daya tariknya yang mengusung b… [+1025 chars]"
     }
   ]
 }
