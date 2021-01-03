@@ -3,7 +3,7 @@ describe("User can search for articles", () => {
     beforeEach(() => {
       cy.server();
       cy.route({
-        url: "https://newsapi.org/v2/everything?q=bitcoin&apiKey=**",
+        url: "https://newsapi.org/v2/everything?q=bitcoin",
         method: "GET",
         response: "fixture:search_for_bitcoin.json",
       });

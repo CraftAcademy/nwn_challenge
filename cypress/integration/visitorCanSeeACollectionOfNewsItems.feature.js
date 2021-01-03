@@ -24,3 +24,5 @@ describe("A user can see list of articles", () => {
         );
       });
     });
+  });
+});
