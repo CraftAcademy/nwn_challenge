@@ -4,7 +4,7 @@ describe("On index page ", () => {
     cy.server();
     cy.route({
       method: "GET",
-      url: "http://newsapi.org/v2/top-headlines?country=us",
+      url: "https://newsapi.org/v2/top-headlines?language=en&apiKey=*",
       response: "fixture:news_index.json",
     });
     cy.visit("/");
