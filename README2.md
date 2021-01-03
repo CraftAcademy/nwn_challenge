@@ -9,8 +9,8 @@ const NewsSearch = () => {
   const [id, setId] = useState("");
   const [idFromButtonClick, setIdFromButtonClick] = useState("");
   const getNewsServiceSearch = async () => {
-    let response = await NewsService.search(idFromButtonClick);
-    setPost(response);
+    let response = await NewsService.search(id);
+      setPost(response);
   };
 
   const handleClick = () => {
@@ -18,7 +18,17 @@ const NewsSearch = () => {
   };
 
   useEffect(() => {
-    getNewsServiceSearch();
+    axios
+      .get(
+        `http://newsapi.org/v2/everything?q=${idFromButtonClick}&language=en&apiKey=dae7714c2de74ce1b1c383440f50a9e9`
+      )
+      .then((res) => {
+        console.log(res);
+        setPost(res.data.articles);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }, [idFromButtonClick]);
 
   return (
@@ -33,13 +43,10 @@ const NewsSearch = () => {
       <Button data-cy="search_button" onClick={handleClick}>
         Search
       </Button>
-      <div data-cy='searched-posts'>
+      <div>
         <ul>
           {post.map((post) => (
-            <li key={post.id}>
-              {post.title}
-              {post.author}]
-            </li>
+            <li key={post.id}>{post.title}</li>
           ))}
         </ul>
       </div>

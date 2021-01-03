@@ -5,7 +5,7 @@ const NewsCard = ({ article }) => {
   return (
     <Card
       data-cy={`article-${article.id}`}
-      key={article.id}
+      key={article.index}
       image={article.urlToImage}
       header={article.title}
       meta={`By: ${article.author} at ${article.name}`}
