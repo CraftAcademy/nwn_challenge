@@ -19,15 +19,11 @@ const NewsSearch = () => {
         placeholder="Search..."
         onChange={(event) => setSearchResult(event.target.value)}
       />
-      <Button  
-      data-cy="search_button"
-      onClick={fetchArticleSearch}
-      >
+      <Button data-cy="search_button" onClick={fetchArticleSearch}>
         Search
       </Button>
-     
     </>
   );
-}
+};
 
 export default NewsSearch;

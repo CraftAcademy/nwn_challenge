@@ -10,7 +10,7 @@ const NewsService = {
 
   async search(query) {
     let response = await axios.get(
-      `everything?q=${query}&country=se&apiKey=48fd0dea52e94e779588814f143e8e88`
+      `everything?q=${query}&apiKey=48fd0dea52e94e779588814f143e8e88`
     );
     return response.data.articles;
   },
