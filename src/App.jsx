@@ -21,9 +21,9 @@ const App = () => {
       <Container>
 
         <Header as='h2' >
-          News Wire Network
+          Business News
           </Header>
-        <p>News from around the world</p>
+        <p>News from around the US</p>
         <NewsIndex />
       </Container>
     </>
