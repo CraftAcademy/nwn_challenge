@@ -1,14 +1,21 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import NewsCard from './NewsCard'
-
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import NewsService from "../modules/NewsService";
+import NewsCard from "./NewsCard";
 
 const NewsIndex = () => {
-  return (
-    <>
-      <NewsCard />
-    </>
-  )
-}
+  useEffect(() => {
+    NewsService.index(dispatch);
+  }, []);
 
-export default NewsIndex
+  const dispatch = useDispatch();
+
+  const allArticles = useSelector((state) => state.newsFeed);
+  let display = allArticles.map((item) => {
+    return <NewsCard props={item} />;
+  });
+
+  return <>{display}</>;
+};
+
+export default NewsIndex;

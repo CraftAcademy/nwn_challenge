@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Expressen.se"
+      },
+      "author": "torbjörn selander",
+      "title": "Langa, 30, har haft muterade viruset - Expressen",
+      "description": "KAPSTADEN. En ny mutation av Covid-19 sprider sig som en löpeld i Sydafrika – den är 40 till 70 procent mer smittsamt än det virus vi känner till. Nu är sydafrikanska forskare oroliga för att vaccinet inte ska klara av de nya mutationerna. – Jag är en av de s…",
+      "url": "https://www.expressen.se/nyheter/coronaviruset/langa-30-ar-sjuk-av-det-muterade-viruset/",
+      "urlToImage": "https://x.cdn-expressen.se/images/e8/53/e853bf2e93554098b8162d41e79b5447/16x9/original.jpg",
+      "publishedAt": "2020-12-30T19:03:00Z",
+      "content": "Larmet kom i höstas från Nelson Mandela Bay i Östra Kapprovinsen i Sydafrika. Sjukvårdspersonal i frontlinjen som kämpade mot Coronaviruset flaggade för att de upplevde något annorlunda. Då bad de om… [+4626 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.dn.se"
+      },
+      "author": "Marit Sundberg, Viviana Canoilas",
+      "title": "Misstänkta biverkningar av vaccinet utreds – 85-åring dog av hjärtstopp - Dagens Nyheter",
+      "description": "Hittills har två misstänkta biverkningar av Pfizers covidvaccin rapporterats till Läkemedelsverket. Det rör sig om hjärtstopp och en överkänslighetsreaktion.",
+      "url": "https://www.dn.se/sverige/misstankta-biverkningar-av-vaccinet-utreds-85-aring-dog-av-hjartstopp/",
+      "urlToImage": "https://cached-images.bonnier.news/swift/bilder/mly/abc61518-6c46-4304-b648-3844dbaed5d2.jpeg?interpolation=lanczos-none&fit=around%7C1024:576&crop=1024:h;center,top&output-quality=80&output-format=auto",
+      "publishedAt": "2020-12-30T17:29:25Z",
+      "content": "Vaccineringen mot covid-19 startade så smått i söndags.\r\nDagen efter att ha fått sprutan dog en multisjuk man i 85-årsåldern av hjärtstopp på ett särskilt boende i Region Kalmar län. Mannens anhöriga… [+2103 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.svt.se"
+      },
+      "author": "https://www.facebook.com/svtnyheter",
+      "title": "Andelen smittade i Kronoberg fortsätter att öka - Sveriges Television",
+      "description": "23 procent av de som testade sig för covid-19 under förra veckan bar på viruset vilket innebär att andelen positiva fall i länet fortsätter att öka. Den negativa trenden ser ut att hålla i sig även denna vecka.",
+      "url": "https://www.svt.se/nyheter/lokalt/smaland/andelen-smittade-i-kronoberg-fortsatter-att-oka",
+      "urlToImage": "https://www.svtstatic.se/image/custom/650/29608352/1609151934?format=auto&ratio=1.91",
+      "publishedAt": "2020-12-30T16:40:09Z",
+      "content": "Trots att färre individer testade sig för pågående covid-19-infektion under vecka 52 än veckorna dessförinnan fortsätter andelen positiva fall att öka. Under vecka 51 kunde 21 procent konstateras smi… [+741 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sverigesradio.se"
+      },
+      "author": "Sveriges Radio",
+      "title": "När sängarna inte räckte till - Sveriges Radio",
+      "description": "Personalen blev överrumplade när svårt sjuka patienter i covid19 strömmade in i slutet på mars. Det blev fort så många patienter att varken sängar, respiratorer ...",
+      "url": "https://sverigesradio.se/artikel/7633883",
+      "urlToImage": "https://static-cdn.sr.se/images/1637/9fc59555-ff55-46ad-afa1-52d30d6febe4.jpg",
+      "publishedAt": "2020-12-30T14:43:28Z",
+      "content": null
+    }
+  ]
+}
