@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import NewsCard from './NewsCard'
-import {Grid} from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 
 
 const NewsIndex = () => {

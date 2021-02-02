@@ -11,7 +11,7 @@ const App = () => {
 
   const dispatch = useDispatch()
   const fetchHeadlineNews = async () => {
-    let response = await axios.get(`https://newsapi.org/v2/everything?q=bitcoin&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`)
+    let response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`)
     dispatch({type: 'SET_NEWS_FEED', payload: response.data.articles})
   }
 
